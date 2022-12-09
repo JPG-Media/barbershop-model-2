@@ -27,7 +27,7 @@ const AnimatedCharacters = (props: any) => {
     },
     visible: {
       y: 0,
-      color: "#FF0088",
+      color: "rgb(255,208,0)", //#FF0088
       transition: { duration: 0.01 }
     }
   };

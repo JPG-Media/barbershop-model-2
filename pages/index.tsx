@@ -26,21 +26,21 @@ const Home: NextPage = () => {
       </Head>
 
       {/* NAVBAR========================================================================================== */}
-      <div className=" z-10 flex justify-between px-10 items-center  bg-opacity-100 backdrop-blur-md py-4 w-full drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-black  ">
+      <div className=" z-10 flex justify-between px-10 items-center  bg-opacity-100 backdrop-blur-md py-4 w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black  ">
         <Navbar />
       </div>
       {/* NAVBAR========================================================================================== */}
 
       {/* HERO SECTION==================================================================================== */}
-      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-background  ">
+      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-background  ">
         <div className="flex justify-center items-center py-4 px-4 w-full">
           <Hero />
         </div>
       </div>
-      {/* HERO SECTION==================================================================================== */}
+      {/* HERO SECTION==================================================================================== 255, 208, 0*/}
 
       {/* Socials========================================================================================255, 208, 0*/}
-      <div id="TheEstablishment" className="py-4 mt-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-black">
+      <div id="TheEstablishment" className="py-4 mt-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black">
         <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5">
           <Logo name={logo.establishment} bg='black' />
         </h1>
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
       {/* Gallery SECTION==================================================================================== */}
       <div
         id="Gallery"
-        className=" bg-background py-4 flex justify-center items-center  text-white w-full drop-shadow-[0px_2px_0px_rgba(170,29,78,1)]"
+        className=" bg-background py-4 flex justify-center items-center  text-white w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)]"
       >
         <div className="flex justify-center items-center py-4 px-2 md:px-10 w-full font-logo font-semibold ">
           <Gallery />
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
 
       <div
         id="Services"
-        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-black text-white  w-full px-2 md:px-10"
+        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black text-white  w-full px-2 md:px-10"
       >
         <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
           <Logo name="Services" bg='black'/>
@@ -78,13 +78,13 @@ const Home: NextPage = () => {
 
       <div
         id="About"
-        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-black text-white backdrop-blur-md w-full px-2 md:px-10"
+        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black text-white backdrop-blur-md w-full px-2 md:px-10"
       >
         <h1 className="lg:text-8xl sm:text-6xl text-4xl font-logo font-bold py-6">
           <Logo name="ABOUT" bg='black'/>
         </h1>
         <About />
-        <div className=" flex justify-center items-center w-full p-10 md:text-7xl text-3xl">
+        <div className=" flex justify-center items-center w-full p-10 md:text-7xl text-3xl font-text font-semibold">
           <BookNow />
         </div>
       </div>

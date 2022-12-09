@@ -28,9 +28,15 @@ const Hero = () => {
           <h1 className="md:text-left text-center text-white">
             {hero}
           </h1>
-          <div className="md:w-12 w-1/2 h-1 bg-white rounded mt-2 mb-1"></div>
-          <div className="md:w-12 w-1/2 h-1 bg-primary rounded mb-1"></div>
-          <div className="md:w-12 w-1/2 h-1 bg-secondary rounded mb-4"></div>
+          <div className="md:w-12 w-1/2 h-1 bg-secondary rounded mt-2 mb-1"></div>
+          <div 
+          className="md:w-12 w-1/2 h-2 bg-logo1 rounded mb-1 barber-pole"
+          
+            
+            >
+
+          </div>
+          <div className="md:w-12 w-1/2 h-1 bg-logo rounded mb-4"></div>
           <div className="flex  w-full flex-col md:flex-row text-3xl">
             <motion.div 
             className=" items-center justify-center md:justify-start flex w-full sm:gap-3 xl:gap-5 gap-2" 
@@ -44,10 +50,10 @@ const Hero = () => {
              transition={{delay:3.5, times:[0, 0.1, 0.11]}}
              >
               <a
-                className=" drop-shadow-[0px_12px_3px_rgba(170,29,78,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
+                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
                 target="_blank" href="https://www.instagram.com/sharpoetry/"
               >
-                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-logo active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(170,29,78,1)] drop-shadow-[0_12px_0px_rgba(138,23,63,1)] hover:drop-shadow-[0_12px_0px_rgba(170,29,78,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
+                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-logo transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-logo active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
                   <FaInstagram/>
                 </button>
               </a>
@@ -57,10 +63,10 @@ const Hero = () => {
               animate={{x:0, opacity:[0, 0, 1]}}
               transition={{delay:3.8, times:[0, 0.1, 0.11]}}>
               <a
-                className=" drop-shadow-[0px_12px_3px_rgba(170,29,78,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
+                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
                 target="_blank" href="https://www.facebook.com/sharpoetry/"
               >
-                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(170,29,78,1)] drop-shadow-[0_12px_0px_rgba(138,23,63,1)] hover:drop-shadow-[0_12px_0px_rgba(170,29,78,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
+                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-logo transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
                 <FaFacebook/>
                 </button>
               </a>
