@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       </div>
       {/* HERO SECTION==================================================================================== */}
 
-      {/* Socials========================================================================================*/}
+      {/* Socials========================================================================================255, 208, 0*/}
       <div id="TheEstablishment" className="py-4 mt-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white drop-shadow-[0px_2px_0px_rgba(170,29,78,1)] bg-black">
         <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5">
           <Logo name={logo.establishment} bg='black' />
