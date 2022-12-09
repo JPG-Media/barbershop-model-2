@@ -21,14 +21,14 @@ const AnimatedCharacters = (props: any) => {
   // Framer Motion variant object, for controlling animation
   const item = {
     hidden: {
-      y: "200%",
-      color: "#0055FF",
-      transition: { duration: 0 }
+      y: 0,
+      color: "rgb(255,208,0)",
+      transition: { duration: 0.5, repeat:Infinity, repeatDelay: 1.5, }
     },
     visible: {
       y: 0,
       color: "rgb(255,208,0)", //#FF0088
-      transition: { duration: 0.01 }
+      transition: { duration: 0.03}
     }
   };
 

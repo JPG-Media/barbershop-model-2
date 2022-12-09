@@ -29,7 +29,7 @@ const ServicesCard = (props: any) => {
     return {
       root: null,
       rootMargin: "0px",
-      threshold: 0.95,
+      threshold: 0.45,
     };
   }, []);
 
@@ -37,7 +37,7 @@ const ServicesCard = (props: any) => {
 
   return (
     <div
-      className="bg-gradient-dark w-11/12 gap-5 md:gap-0 p-10 lg:p-16 text-white 
+      className="bg-gradient-green w-11/12 gap-5 md:gap-0 p-10 lg:p-16 text-white 
        rounded-tl-3xl rounded-br-3xl flex md:flex-row flex-col items-center justify-between"
     >
       <div
@@ -68,6 +68,7 @@ const ServicesCard = (props: any) => {
             transition = {{
               delay: 0.2,
               duration: 0.3,
+              bounce: 0.3,
               type: 'spring'
             }}
           >
@@ -116,6 +117,7 @@ const ServicesCard = (props: any) => {
             animate={{ x: 0, opacity: 1 }}
             transition = {{
               delay: 0.2,
+              bounce: 0.3,
               duration: 0.3,
               type: 'spring'
             }}

@@ -5,13 +5,26 @@ import { useState } from "react";5
 import Logo from "./Logo";
 import {logo} from "../data/constants";
 import {AnimatePresence, motion} from "framer-motion";
+import AnimatedText from "./AnimatedText"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [replay, setReplay] = useState(false);
+
+
 
   const handleButton = () => {
-    toggle ? setToggle(false) : setToggle(true);
+    if(toggle){
+      setToggle(false);
+      setReplay(false);
+    }else {
+      setToggle(true);
+      setReplay(true);
+    }
   };
+
+
+
 
   return (
     <div className="w-full flex flex-col justify-center items-start bg-black rounded-3xl">
@@ -45,7 +58,7 @@ const Navbar = () => {
             ></span>
             <span
               className={`transition-all duration-500 ease-[cubic-bezier(.72,-0.95,.06,1.69)] block h-1 ${
-                toggle ? "bg-secondary relative border-solid border-[1px] border-contrast rounded-bl -translate-y-3 rotate-45 w-8" : "bg-white w-5"
+                toggle ? "bg-logo relative border-solid border-[1px] border-contrast rounded-bl -translate-y-3 rotate-45 w-8" : "bg-white w-5"
               }`}
             ></span>
           </div>
@@ -64,39 +77,81 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex animate-navbarMobile "
             } p-6 md:hidden justify-center items-center  w-full opacity-0 relative transition-all  right-0 left-0  my-2 rounded-xl flex`}
           >
-            <ul className="list-none   flex justify-end items-center w-full flex-col flex-1">
-              <li className="w-full py-1">
-                <a
-                  className="hover:border-secondary border-solid border-2 rounded  text-2xl font-zilla font-medium flex items-center uppercase text-white justify-center w-[100%] text-center "
-                  href="#TheEstablishment"
-                >
-                  The Establishment
-                </a>
-              </li>
-              <li className="w-full py-1">
-                <a
-                  className="hover:border-primary border-solid border-2 rounded  text-2xl font-zilla font-medium flex items-center uppercase justify-center text-white w-[100%]"
-                  href="#Gallery"
-                >
-                  Gallery
-                </a>
-              </li>
-              <li className="w-full py-1 ">
-                <a
-                  className="hover:border-secondary border-solid border-2 rounded  text-2xl font-zilla font-medium flex items-center uppercase text-white justify-center w-[100%] text-center "
-                  href="#Services"
-                >
-                  Services
-                </a>
-              </li>
-              <li className=" w-full py-1">
-                <a
-                  className="hover:border-primary border-solid border-2 rounded  text-2xl font-zilla font-medium flex items-center uppercase justify-center text-white w-[100%]"
-                  href="#About"
-                >
-                  About
-                </a>
-              </li>
+            <ul className="list-none  flex justify-end items-start w-full flex-col flex-1 text-white">
+            <motion.li>
+          <motion.a
+            className=" rounded   items-center  justify-center  text-center "
+            href="#TheEstablishment"
+           animate={ replay ? "hidden" : ''}
+            variants={{
+              hidden: {
+                transition: {
+                  type: "spring",
+                  staggerChildren: 0.05,
+                },
+                
+              },
+            }}
+          >
+            <AnimatedText text="Establishment" type="heading2" />
+          </motion.a>
+        </motion.li>
+        <motion.li>
+          <motion.a
+            className="rounded items-center justify-center"
+            href="#Gallery"
+            animate={ replay ? "hidden" : ''}
+            variants={{
+              hidden: {
+                transition: {
+                  type: "spring",
+                  staggerChildren: 0.05,
+                },
+                
+              },
+            }}
+          >
+            <AnimatedText text="Gallery" type="heading2" />
+          </motion.a>
+        </motion.li>
+        
+        <motion.li>
+          <motion.a
+            className="rounded items-center justify-center text-center"
+            href="#Services"
+            animate={ replay ? "hidden" : ''}
+            variants={{
+              hidden: {
+                transition: {
+                  type: "spring",
+                  staggerChildren: 0.01,
+                },
+                
+              },
+            }}
+          >
+            <AnimatedText text="Services" type="heading2" />
+          </motion.a>
+        </motion.li>
+
+        <motion.li>
+          <motion.a
+            className="rounded items-center justify-center text-center"
+            href="#About"
+           animate={ replay ? "hidden" : ''}
+            variants={{
+              hidden: {
+                transition: {
+                  type: "spring",
+                  staggerChildren: 0.05,
+                },
+                
+              },
+            }}
+          >
+            <AnimatedText text="About" type="heading2" />
+          </motion.a>
+        </motion.li>
             </ul>
           </div>
     </div>

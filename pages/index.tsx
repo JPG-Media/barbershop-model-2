@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       {/* NAVBAR========================================================================================== */}
 
       {/* HERO SECTION==================================================================================== */}
-      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-background  ">
+      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-gradient-green  ">
         <div className="flex justify-center items-center py-4 px-4 w-full">
           <Hero />
         </div>

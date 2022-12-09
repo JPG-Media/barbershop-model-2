@@ -21,6 +21,18 @@ background: -webkit-linear-gradient(45deg, hsla(0, 0%, 0%, 1) 0%, hsla(315, 77%,
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#170312", GradientType=1 );
 }
 
+.bg-gradient-green{
+  background: hsla(171, 88%, 3%, 1);
+
+background: linear-gradient(180deg, hsla(171, 88%, 3%, 1) 45%, hsla(0, 0%, 0%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(171, 88%, 3%, 1) 45%, hsla(0, 0%, 0%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(171, 88%, 3%, 1) 45%, hsla(0, 0%, 0%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#010F0D", endColorstr="#000000", GradientType=1 );
+}
+
 
 
 .bg-logo1{

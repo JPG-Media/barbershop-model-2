@@ -28,10 +28,10 @@ const Navbar = () => {
               }}
             >
               <a
-                className=" drop-shadow-[0px_12px_3px_rgba(170,29,78,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
+                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
                 href="#"
               >
-                <button className="bg-primary p-4 rounded-tl-3xl   hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(170,29,78,1)] drop-shadow-[0_12px_0px_rgba(138,23,63,1)] hover:drop-shadow-[0_12px_0px_rgba(170,29,78,1)] lg:text-6xl md:text-4xl sm:text-2xl text-lg">
+                <button className="bg-primary p-4 rounded-tl-3xl   hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-6xl md:text-4xl sm:text-2xl text-lg hover:text-white">
                   &#8593;
                 </button>
               </a>
@@ -54,10 +54,10 @@ const Navbar = () => {
             className='xs:block hidden'
           >
             <a
-              className=" drop-shadow-[0px_12px_3px_rgba(170,29,78,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
+              className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
               href="#"
             >
-              <button className="bg-primary p-4 rounded-tr-3xl  hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(170,29,78,1)] drop-shadow-[0_12px_0px_rgba(138,23,63,1)] hover:drop-shadow-[0_12px_0px_rgba(170,29,78,1)] lg:text-6xl md:text-4xl sm:text-2xl text-lg">
+              <button className="bg-primary p-4 rounded-tr-3xl  hover:bg-secondary transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-6xl md:text-4xl sm:text-2xl text-lg hover:text-white">
                 &#8593;
               </button>
             </a>
