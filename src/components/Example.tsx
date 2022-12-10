@@ -67,9 +67,9 @@ export const Example = () => {
         <AnimatedText text="PREVIOUS" type="heading2"/>
       </motion.div>
       <AnimatePresence initial={false} custom={direction}>
-        <div className="relative cursor-grab flex items-center justify-center rounded-tl-[45px] overflow-clipped md:px-12 w-full h-full">
+        <div className="relative cursor-grab flex items-center justify-center  overflow-clipped md:px-12 w-full h-full">
         <motion.img
-          className=" object-cover rounded-tl-[45px] rounded-br-[45px] max-w-full
+          className=" object-cover max-w-full
           max-h-full border-solid border-white border-2"
           key={page}
           src={images[imageIndex]}

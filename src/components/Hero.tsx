@@ -28,23 +28,21 @@ const Hero = () => {
           <h1 className="md:text-left text-center text-white">
             {hero}
           </h1>
-          <div className="md:w-12 w-1/2 h-1 bg-primary rounded mt-2 mb-1"></div>
-          <div 
-          className="md:w-12 w-1/2 h-2 bg-logo1 rounded mb-1 barber-pole"
-          
-            
-            >
+          <div className="w-full justify-center items-start flex flex-col gap-[3px] py-4 pb-8">
+              <div className="md:w-16 w-1/2 h-[5px] bg-primary rounded-t"></div>
+              <div className="md:w-16 w-1/2 h-2 bg-logo1 rounded-[2px] barber-pole"></div>
+              <div className="md:w-16 w-1/2 h-[5px] bg-logo rounded-b"></div>
+            </div>
 
-          </div>
-          <div className="md:w-12 w-1/2 h-1 bg-logo rounded mb-4"></div>
+
           <div className="flex  w-full flex-col md:flex-row text-3xl">
-            <motion.div 
+            <div 
             className=" items-center justify-center md:justify-start flex w-full sm:gap-3 xl:gap-5 gap-2" 
             
             >
-             <motion.span className="z-10 font-medium text-white"><BookNow /></motion.span>
+             <span className="z-10 font-medium text-white"><BookNow /></span>
 
-             <motion.span
+             {/* <motion.span
              initial={{x:-150, opacity:0}}
              animate={{x:0, opacity:[0, 0, 1]}}
              transition={{delay:1, times:[0, 0.1, 0.11]}}
@@ -70,8 +68,8 @@ const Hero = () => {
                 <FaFacebook/>
                 </button>
               </a>
-              </motion.span>
-            </motion.div>
+              </motion.span> */}
+            </div>
           </div>
         </div>
       </div>

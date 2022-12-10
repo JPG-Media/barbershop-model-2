@@ -6,10 +6,10 @@ const Socials = () => {
     <div className="md:p-0 w-full flex flex-col">
       <div
         className=" w-full flex flex-col md:flex-row sm:p-10
-      p-4 rounded-tl-3xl rounded-br-[45px] gap-5 drop-shadow-[3px_-4px_0px_rgba(255,255,255,1)] bg-gradient-green"
+      p-4  gap-5bg-gradient-green"
       >
         <div className="w-full md:w-3/5 sm:px-10 text-left flex items-center">
-          <p className="font-primary xxl:text-6xl xl:text-4xl md:text-3xl text-xl text-white font-extralight ">
+          <p className="font-primary xxl:text-4xl xl:text-3xl md:text-3xl text-xl text-white font-extralight ">
             {theEstablishment}
           </p>
         </div>

@@ -32,15 +32,15 @@ const Home: NextPage = () => {
       {/* NAVBAR========================================================================================== */}
 
       {/* HERO SECTION==================================================================================== */}
-      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-gradient-green  ">
+      <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full drop-shadow-[0px_1px_0px_rgba(255,208,0,1)] bg-gradient-blue  ">
         <div className="flex justify-center items-center py-4 px-4 w-full">
           <Hero />
         </div>
       </div>
       {/* HERO SECTION==================================================================================== 255, 208, 0*/}
 
-      {/* Socials========================================================================================255, 208, 0*/}
-      <div id="TheEstablishment" className="py-4 mt-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black">
+      {/* ESTABLISHMENT========================================================================================255, 208, 0*/}
+      <div id="TheEstablishment" className=" mt-[1px] py-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white drop-shadow-[0px_1px_0px_rgba(255,208,0,1)] bg-black">
         <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5">
           <Logo name={logo.establishment} bg='black' />
         </h1>
@@ -48,24 +48,27 @@ const Home: NextPage = () => {
         <Socials />
       </div>
 
-      {/* Socials========================================================================================*/}
+      {/* ESTABLISHMENT========================================================================================*/}
+      {/* About======================================================================================== */}
 
-      {/* Gallery SECTION==================================================================================== */}
       <div
-        id="Gallery"
-        className=" bg-background py-4 flex justify-center items-center  text-white w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)]"
+        id="About"
+        className="mt-[1px] py-2 flex flex-col justify-start items-start drop-shadow-[0px_1px_0px_rgba(255,208,0,1)] bg-gradient-blue text-white backdrop-blur-md w-full px-2 md:px-10"
       >
-        <div className="flex justify-center items-center py-4 px-2 md:px-10 w-full font-logo font-semibold ">
-          <Gallery />
-        </div>
+        
+        <About />
+        
       </div>
-      {/* Gallery SECTION==================================================================================== */}
+
+      {/* About========================================================================================*/}
+
+      
 
       {/* SERVICES======================================================================================== */}
 
       <div
         id="Services"
-        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black text-white  w-full px-2 md:px-10"
+        className="mt-[1px] py-4 flex flex-col justify-start items-start drop-shadow-[0px_1px_0px_rgba(255,208,0,1)] bg-black text-white  w-full px-2 md:px-10"
       >
         <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
           <Logo name="Services" bg='black'/>
@@ -74,24 +77,18 @@ const Home: NextPage = () => {
       </div>
 
       {/* SERVICES========================================================================================*/}
-      {/* About======================================================================================== */}
-
+      {/* Gallery SECTION==================================================================================== */}
       <div
-        id="About"
-        className="mt-10 py-4 flex flex-col justify-start items-start drop-shadow-[0px_2px_0px_rgba(255,208,0,1)] bg-black text-white backdrop-blur-md w-full px-2 md:px-10"
+        id="Gallery"
+        className=" bg-background py-4 flex justify-center items-center mt-[1px] text-white w-full drop-shadow-[0px_2px_0px_rgba(255,208,0,1)]"
       >
-        <h1 className="lg:text-8xl sm:text-6xl text-4xl font-logo font-bold py-6">
-          <Logo name="ABOUT" bg='black'/>
-        </h1>
-        <About />
-        <div className=" flex justify-center items-center w-full p-10 md:text-7xl text-3xl font-text font-semibold">
-          <BookNow />
+        <div className="flex justify-center items-center py-4 px-2 md:px-10 w-full font-logo font-semibold ">
+          <Gallery />
         </div>
       </div>
-
-      {/* About========================================================================================*/}
+      {/* Gallery SECTION==================================================================================== */}
       {/* FOOTER========================================================================================*/}
-      <div className="py-4 mt-10 z-10 flex justify-between sm:px-8 items-center  bg-black backdrop-blur-md w-full ">
+      <div className="py-4 mt-10 z-10 flex justify-center sm:px-8 items-center  bg-black w-full ">
         <Footer />
       </div>
 

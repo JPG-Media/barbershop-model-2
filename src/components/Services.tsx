@@ -1,6 +1,7 @@
 import React from 'react'
 import ServicesCard from './ServicesCard'
 import { services } from "../data/constants/index";
+import BookNow from './BookNow';
 
 const Services = () => {
 
@@ -21,6 +22,9 @@ const Services = () => {
                 price={price}/>
         )
       })}
+      <div className=" flex justify-center items-center w-full p-10 text-3xl font-text font-semibold">
+              <BookNow />
+            </div>
     </div>
   )
 }

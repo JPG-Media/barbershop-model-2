@@ -19,12 +19,12 @@ module.exports = {
         contrast: "#170312",
         blend: "#4d3e3e",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimBlue: "#021210",
       },
       fontFamily: {
         logo: ["Josefin Slab", "sans-serif"],
-        text: ["Poppins", "sans-serif"],
-        primary: ["Kanit", "sans-serif"],
+        text: ["Bitter", "sans-serif"],
+        primary: ["Poppins", "sans-serif"],
         secondary: ["Nunito", "sans-serif"],
       },
       animation: {
