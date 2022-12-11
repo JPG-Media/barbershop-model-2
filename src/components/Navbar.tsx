@@ -28,6 +28,7 @@ const Navbar = () => {
           <Logo name={logo.nav} bg="black" />
 
           <div className="hidden md:block w-full">
+            
             <NavbarLeftItems />
           </div>
           {/** MOBILE HAMBURGER */}
@@ -98,7 +99,7 @@ const Navbar = () => {
                 },
               }}
             >
-              <AnimatedText text="Gallery" type="heading2" />
+              <AnimatedText text="Gallery" type="paragraph" />
             </motion.a>
           </motion.li>
 
@@ -137,12 +138,8 @@ const Navbar = () => {
               <AnimatedText text="About" type="heading2" />
             </motion.a>
           </motion.li>
-
-
         </ul>
       </div>
-
-
     </div>
   );
 };
