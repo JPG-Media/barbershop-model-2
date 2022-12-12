@@ -37,7 +37,7 @@ const ServicesCard = (props: any) => {
 
   return (
     <div
-      className="bg-gradient-green w-11/12 gap-5 md:gap-0 p-10 lg:p-16 text-white 
+      className="bg-gradient-green w-10/12 gap-5 md:gap-0 p-10 lg:p-16 text-white 
        border-solid border-[1px] border-[rgb(255,208,0)] flex md:flex-row flex-col items-center justify-between"
     >
       <div
@@ -47,7 +47,7 @@ const ServicesCard = (props: any) => {
         <h1 className="text-4xl lg:text-6xl justify-center font-medium font-logo uppercase">
           {props.name}
         </h1>
-        <p className="text-lg font-primary font-light lg:text-2xl">
+        <p className="text-lg font-primary font-extralight lg:text-xl text-gray-400">
           {props.description}
         </p>
       </div>
@@ -94,12 +94,11 @@ const ServicesCard = (props: any) => {
             priceIsVisible ? "" : ""
           }  text-5xl lg:text-8xl text-white font-primary font-bold`}  
             >
-          {/* animate-price */}
-          <span className="font-primary font-normal leading-loose text-2xl lg:text-4xl">
+          <span className="font-primary font-normal leading-loose text-2xl lg:text-4xl text-gray-400">
             $
           </span>
           {props.price}
-          <span className=" font-normal leading-loose  text-2xl lg:text-5xl">
+          <span className=" font-normal leading-loose  text-2xl lg:text-5xl text-gray-400">
             ,00
           </span>
         </motion.h1>

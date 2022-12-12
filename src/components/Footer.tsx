@@ -49,6 +49,24 @@ const Navbar = () => {
               Navigation
             </h1>
             <ul className="px-1 flex flex-col font-primary text-base items-start font-extralight">
+            <motion.li>
+                <motion.a
+                  className=" rounded   items-center  justify-center  text-center "
+                  href="#Home"
+                  whileHover={"visible"}
+                  variants={{
+                    visible: {
+                      transition: {
+                        type: "spring",
+                        duration: 0.05,
+                        staggerChildren: 0.02,
+                      },
+                    },
+                  }}
+                >
+                  <AnimatedText text="Home" type="paragraph" />
+                </motion.a>
+              </motion.li>
               <motion.li>
                 <motion.a
                   className=" rounded   items-center  justify-center  text-center "

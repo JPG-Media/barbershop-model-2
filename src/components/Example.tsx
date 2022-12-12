@@ -104,7 +104,7 @@ export const Example = () => {
       <div className="flex w-full py-8 justify-center items-center relative bottom-0 gap-2
       ">
 
-      <motion.div className="prev md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(-1)}
+      <motion.div className="prev md:hidden flex justify-center items-center w-1/2 " onClick={() => paginate(-1)}
       animate={"hidden"}
       variants={{
         visible: {
@@ -115,9 +115,9 @@ export const Example = () => {
           },
         },
       }}>
-        <p className="text-2xl">
-        <AnimatedText text="PREV" type="paragraph"/>
-        </p>
+        <span className="text-2xl">
+        <AnimatedText text="PREV" type="heading2"/>
+        </span>
       </motion.div>
 
       <motion.div className="next md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(1)}
@@ -131,9 +131,9 @@ export const Example = () => {
           },
         },
       }}>
-        <p className="text-2xl">
+        <span className="text-2xl">
         <AnimatedText text="NEXT" type="paragraph"/>
-        </p>
+        </span>
       </motion.div>
       </div>
     </div>

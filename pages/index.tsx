@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       </Head>
 
       {/* NAVBAR========================================================================================== */}
-      <div className=" z-10 flex justify-between px-10 items-center  bg-opacity-100 backdrop-blur-md py-4 w-full border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black  ">
+      <div id="Home" className=" z-10 flex justify-between px-10 items-center  bg-opacity-100 backdrop-blur-md py-4 w-full border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black  ">
         <Navbar />
       </div>
       {/* NAVBAR========================================================================================== */}
