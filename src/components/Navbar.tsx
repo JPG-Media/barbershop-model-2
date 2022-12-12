@@ -145,6 +145,10 @@ const Navbar = () => {
               <AnimatedText text="About" type="heading2" />
             </motion.a>
           </motion.li>
+          <li>
+          <h1>(29) 847 43 23</h1>
+            <h1>Mon-Sat 09:30am-7:00pm</h1>
+          </li>
         </ul>
       </div>
     </div>

@@ -34,10 +34,12 @@ const About = () => {
   };
 
   return (
-    <div className="flex py-4">
+    <div className="flex md:flex-row flex-col py-4">
+      <div className="flex justify-center md:items-start items-center">
       <h1 className="lg:text-8xl sm:text-6xl text-4xl font-logo font-bold pt-4">
         <Logo name="ABOUT" bg="black" />
       </h1>
+      </div>
       <div className="w-full flex  px-2 md:px-10  gap-8 relative  min-h-[60vh]  rounded-tl-3xl rounded-br-3xl mt-10">
         <div className="w-full flex flex-col md:flex-row justify-start items-center sm:py-10 py-4  h-full rounded-tl-3xl rounded-br-3xl ">
           <div className="flex h-1/2 flex-col md:w-1/2 justify-center items-center gap-5 md:mr-10 lg:px-6">
@@ -121,7 +123,7 @@ const About = () => {
               <div className="md:w-16 w-1/2 h-[4px] bg-logo rounded-b-3xl"></div>
             </div>
 
-            <div className="flex-row flex h-full justify-center gap-6 items-center  ">
+            <div className="flex-row flex h-full justify-center gap-6 items-center mb-5 ">
               <a
                 target="_blank"
                 className="text-4xl"

@@ -41,10 +41,14 @@ const Home: NextPage = () => {
         id="TheEstablishment"
         className=" py-24 z-10 flex flex-col px-2 md:px-10 items-center justify-center w-full  text-white border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black"
       >
-        <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5
-        w-full justify-start items-start flex">
-          <Logo name={logo.establishment} bg="black" />
-        </h1>
+        <div className="flex md:justify-start justify-center md:items-start items-center w-full">
+          <h1
+            className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5
+        w-full justify-start items-start flex"
+          >
+            <Logo name={logo.establishment} bg="black" />
+          </h1>
+        </div>
         <div className="w-11/12 flex justify-center items-center">
           <Socials />
         </div>
@@ -67,9 +71,12 @@ const Home: NextPage = () => {
         id="Services"
         className="py-4 flex flex-col justify-start items-start border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black text-white  w-full px-2 md:px-10"
       >
-        <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
-          <Logo name="Services" bg="black" />
-        </h1>
+        <div className="flex md:justify-start justify-center md:items-start items-center w-full">
+          <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
+            <Logo name="Services" bg="black" />
+          </h1>
+        </div>
+
         <Services />
       </div>
 
