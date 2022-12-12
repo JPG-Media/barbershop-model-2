@@ -52,6 +52,7 @@ export const Example = () => {
   };
 
   return (
+    
     <div className=" flex rounded-tl-[45px] overflow-hidden justify-between items-center py-10 p-4 md:px-10 md:top-none bottom-0">
       <motion.div className="prev md:block hidden" onClick={() => paginate(-1)}
       whileHover={"visible"}
@@ -66,6 +67,8 @@ export const Example = () => {
       }}>
         <AnimatedText text="PREVIOUS" type="heading2"/>
       </motion.div>
+
+      <div className="flex flex-col w-full h-full relative">
       <AnimatePresence initial={false} custom={direction}>
         <div className="relative cursor-grab flex items-center justify-center  overflow-clipped md:px-12 w-full h-full">
         <motion.img
@@ -98,6 +101,43 @@ export const Example = () => {
         </div>
       </AnimatePresence>
 
+      <div className="flex w-full py-8 justify-center items-center relative bottom-0 gap-2
+      ">
+
+      <motion.div className="prev md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(-1)}
+      animate={"hidden"}
+      variants={{
+        visible: {
+          transition: {
+            type: "spring",
+            duration: 0.05,
+            staggerChildren: 0.02,
+          },
+        },
+      }}>
+        <p className="text-2xl">
+        <AnimatedText text="PREV" type="paragraph"/>
+        </p>
+      </motion.div>
+
+      <motion.div className="next md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(1)}
+      animate={"hidden"}
+      variants={{
+        visible: {
+          transition: {
+            type: "spring",
+            duration: 0.05,
+            staggerChildren: 0.02,
+          },
+        },
+      }}>
+        <p className="text-2xl">
+        <AnimatedText text="NEXT" type="paragraph"/>
+        </p>
+      </motion.div>
+      </div>
+    </div>
+
 
       <motion.div className="next md:block hidden" onClick={() => paginate(1)}
       whileHover={"visible"}
@@ -112,8 +152,10 @@ export const Example = () => {
       }}>
         <AnimatedText text="NEXT" type="heading2"/>
       </motion.div>
+      </div>
+
+
       
-    </div>
   );
 };
 

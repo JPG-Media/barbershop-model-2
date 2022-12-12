@@ -2,10 +2,8 @@ import React from "react";
 import Image from "next/image";
 import SvgLogo from "../assets/SvgLogo.svg";
 import HeroCarousel from "./HeroCarousel";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
 import BookNow from "./BookNow";
-import { motion } from "framer-motion";
-import {hero} from "../data/constants"
+import { hero } from "../data/constants";
 
 const Hero = () => {
   return (
@@ -21,55 +19,40 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="font-primary flex flex-col md:px-0 px-4 items-center md:items-start font-thin text-3xl md:w-1/3">
+        <div className="font-primary flex flex-col md:px-0 px-4 items-center md:items-start font-thin text-3xl md:w-1/3 gap-10">
           <div className="p-10 w-full flex items-center justify-center">
             <Image src={SvgLogo} alt="a" width={150} />
           </div>
-          <h1 className="md:text-left text-center text-white">
-            {hero}
-          </h1>
-          <div className="w-full justify-center items-start flex flex-col gap-[3px] py-4 pb-8">
-              <div className="md:w-16 w-1/2 h-[5px] bg-primary rounded-t"></div>
-              <div className="md:w-16 w-1/2 h-2 bg-logo1 rounded-[2px] barber-pole"></div>
-              <div className="md:w-16 w-1/2 h-[5px] bg-logo rounded-b"></div>
-            </div>
+          <div className="gap-2 flex flex-col">
+            <h1 className="md:text-left font-bold font-text text-center text-white">{hero}</h1>
+            <p className="text-gray-400 font-primary text-lg font-light">
+              HERO Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              impedit officiis dignissimos recusandae.
+            </p>
+          </div>
 
+          
 
           <div className="flex  w-full flex-col md:flex-row text-3xl">
-            <div 
-            className=" items-center justify-center md:justify-start flex w-full sm:gap-3 xl:gap-5 gap-2" 
-            
-            >
-             <span className="z-10 font-medium text-white"><BookNow /></span>
-
-             {/* <motion.span
-             initial={{x:-150, opacity:0}}
-             animate={{x:0, opacity:[0, 0, 1]}}
-             transition={{delay:1, times:[0, 0.1, 0.11]}}
-             >
-              <a
-                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
-                target="_blank" href="https://www.instagram.com/sharpoetry/"
-              >
-                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-background hover:text-white transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-logo active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
-                  <FaInstagram/>
-                </button>
-              </a>
-              </motion.span>
-              <motion.span 
-              initial={{x:-250, opacity:0}}
-              animate={{x:0, opacity:[0, 0, 1]}}
-              transition={{delay:1, times:[0, 0.1, 0.11]}}>
-              <a
-                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
-                target="_blank" href="https://www.facebook.com/sharpoetry/"
-              >
-                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-background hover:text-white transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
-                <FaFacebook/>
-                </button>
-              </a>
-              </motion.span> */}
+            <div className=" items-center justify-center md:justify-start flex w-full sm:gap-3 xl:gap-5 gap-2">
+              <span className="z-10 font-medium text-white">
+                <BookNow />
+              </span>
             </div>
+          </div>
+          <div className=" gap-4 flex font-primary font-extralight w-full justify-start pt-16">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+              fill="#aa1d4e"
+            >
+              <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
+            </svg>
+            <h1 className="text-white text-base md:text-xl xl:text-3xl sm:text-sm">
+              Minsk, rua Lenina, 33
+            </h1>
           </div>
         </div>
       </div>
