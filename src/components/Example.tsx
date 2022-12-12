@@ -52,6 +52,7 @@ export const Example = () => {
   };
 
   return (
+    <div className="flex flex-col w-full h-full relative">
     <div className=" flex rounded-tl-[45px] overflow-hidden justify-between items-center py-10 p-4 md:px-10 md:top-none bottom-0">
       <motion.div className="prev md:block hidden" onClick={() => paginate(-1)}
       whileHover={"visible"}
@@ -112,7 +113,45 @@ export const Example = () => {
       }}>
         <AnimatedText text="NEXT" type="heading2"/>
       </motion.div>
-      
+      </div>
+
+
+      <div className="flex w-full py-2 justify-center items-center absolute bottom-0 gap-2">
+
+
+
+      <motion.div className="prev md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(-1)}
+      animate={"hidden"}
+      variants={{
+        visible: {
+          transition: {
+            type: "spring",
+            duration: 0.05,
+            staggerChildren: 0.02,
+          },
+        },
+      }}>
+        <p className="text-2xl">
+        <AnimatedText text="PREV" type="paragraph"/>
+        </p>
+      </motion.div>
+
+      <motion.div className="next md:hidden flex justify-center items-center w-1/2" onClick={() => paginate(1)}
+      animate={"hidden"}
+      variants={{
+        visible: {
+          transition: {
+            type: "spring",
+            duration: 0.05,
+            staggerChildren: 0.02,
+          },
+        },
+      }}>
+        <p className="text-2xl">
+        <AnimatedText text="NEXT" type="paragraph"/>
+        </p>
+      </motion.div>
+      </div>
     </div>
   );
 };

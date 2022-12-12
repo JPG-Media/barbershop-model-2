@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
 import { useState } from "react";
 import Logo from "./Logo";
 import { logo } from "../data/constants";
@@ -16,20 +16,21 @@ const Navbar = () => {
 
   return (
     <section className=" w-full flex justify-between relative mx-auto bg-gradient-green">
-      <nav className="md:gap-10 gap-4 justify-between relative w-full flex  py-8">
+      <nav className="md:gap-10 gap-4 justify-between relative w-full flex md:flex-row flex-col py-8">
         <div
           className=" md:w-auto gap-2 flex items-center justify-start
          p-4 rounded-b-3xl rounded-tl-3xl md:text-5xl xl:text-8xl sm:text-2xl text-md flex-col"
         >
+          <div className="flex">
           <Logo name={logo.nav} bg="black" />
-
-          <div className="flex justify-start items-start w-full py-4">
-            <a className="text-base  w-1/2 text-white font-primary font-light">
+          </div>
+          <div className="flex md:justify-start md:items-start justify-center items-center text-center w-full py-4">
+            <a className="text-base  md:w-1/2 text-gray-500 font-primary font-light">
               WilliamBarber©2022
             </a>
           </div>
         </div>
-        <div className="flex justify-between pr-48 w-4/5 px-36 py-1">
+        <div className="flex md:flex-row md:gap-0 gap-4 flex-col justify-between md:pr-48 w-4/5 md:px-36 px-10 py-1">
           <div
             className=" md:w-auto flex flex-col font-secondary justify-start items-start
          p-4  text-white  md:text-2xl xl:text-8xl sm:text-2xl text-md border-solid border-l-2 border-[rgb(255,208,0)]"
@@ -48,114 +49,108 @@ const Navbar = () => {
               Navigation
             </h1>
             <ul className="px-1 flex flex-col font-primary text-base items-start font-extralight">
-            <motion.li>
-            <motion.a
-              className=" rounded   items-center  justify-center  text-center "
-              href="#TheEstablishment"
-              whileHover={"visible"}
-              variants={{
-                visible: {
-                  transition: {
-                    type: "spring",
-                    duration: 0.05,
-                    staggerChildren: 0.02,
-                  },
-                },
-              }}
-            >
-              <AnimatedText text="The Establishment" type="paragraph" />
-            </motion.a>
-          </motion.li>
-          <motion.li>
-            <motion.a
-              className="rounded items-center justify-center text-center"
-              href="#About"
-              whileHover={"visible"}
-              variants={{
-                visible: {
-                  transition: {
-                    type: "spring",
-                    duration: 0.05,
-                    staggerChildren: 0.02,
-                  },
-                },
-              }}
-            >
-              <AnimatedText text="About" type="paragraph" />
-            </motion.a>
-          </motion.li>
+              <motion.li>
+                <motion.a
+                  className=" rounded   items-center  justify-center  text-center "
+                  href="#TheEstablishment"
+                  whileHover={"visible"}
+                  variants={{
+                    visible: {
+                      transition: {
+                        type: "spring",
+                        duration: 0.05,
+                        staggerChildren: 0.02,
+                      },
+                    },
+                  }}
+                >
+                  <AnimatedText text="The Establishment" type="paragraph" />
+                </motion.a>
+              </motion.li>
+              <motion.li>
+                <motion.a
+                  className="rounded items-center justify-center text-center"
+                  href="#About"
+                  whileHover={"visible"}
+                  variants={{
+                    visible: {
+                      transition: {
+                        type: "spring",
+                        duration: 0.05,
+                        staggerChildren: 0.02,
+                      },
+                    },
+                  }}
+                >
+                  <AnimatedText text="About" type="paragraph" />
+                </motion.a>
+              </motion.li>
 
-          
+              <motion.li>
+                <motion.a
+                  className="rounded items-center justify-center text-center"
+                  href="#Services"
+                  whileHover={"visible"}
+                  variants={{
+                    visible: {
+                      transition: {
+                        type: "spring",
+                        duration: 0.05,
+                        staggerChildren: 0.02,
+                      },
+                    },
+                  }}
+                >
+                  <AnimatedText text="Services" type="paragraph" />
+                </motion.a>
+              </motion.li>
 
-          <motion.li>
-            <motion.a
-              className="rounded items-center justify-center text-center"
-              href="#Services"
-              whileHover={"visible"}
-              variants={{
-                visible: {
-                  transition: {
-                    type: "spring",
-                    duration: 0.05,
-                    staggerChildren: 0.02,
-                  },
-                },
-              }}
-            >
-              <AnimatedText text="Services" type="paragraph" />
-            </motion.a>
-          </motion.li>
-
-          <motion.li>
-            <motion.a
-              className="rounded items-center justify-center text-center"
-              href="#Gallery"
-              whileHover={"visible"}
-              variants={{
-                visible: {
-                  transition: {
-                    type: "spring",
-                    duration: 0.05,
-                    staggerChildren: 0.02,
-                  },
-                },
-              }}
-            >
-              <AnimatedText text="Gallery" type="paragraph" />
-            </motion.a>
-          </motion.li>
+              <motion.li>
+                <motion.a
+                  className="rounded items-center justify-center text-center"
+                  href="#Gallery"
+                  whileHover={"visible"}
+                  variants={{
+                    visible: {
+                      transition: {
+                        type: "spring",
+                        duration: 0.05,
+                        staggerChildren: 0.02,
+                      },
+                    },
+                  }}
+                >
+                  <AnimatedText text="Gallery" type="paragraph" />
+                </motion.a>
+              </motion.li>
             </ul>
           </div>
-          <div className=" md:w-auto flex gap-y-8 font-secondary items-center justify-center border-solid border-l-2 border-[rgb(255,208,0)] p-4 text-gray-400 md:text-5xl xl:text-4xl sm:text-2xl text-md">
-            <SocialMediaIcons />
-
-            {/* <motion.span
-             initial={{x:-150, opacity:0}}
-             animate={{x:0, opacity:[0, 0, 1]}}
-             transition={{delay:1, times:[0, 0.1, 0.11]}}
-             >
+          <div className=" md:w-auto flex font-secondary items-center justify-center border-solid border-l-2 border-[rgb(255,208,0)] p-4 text-gray-400 md:text-5xl xl:text-4xl sm:text-2xl text-md">
+            <div className="md:flex-col flex h-full justify-center gap-6 items-center  ">
               <a
-                className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
-                target="_blank" href="https://www.instagram.com/sharpoetry/"
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
               >
-                <button className="bg-primary p-2 rounded-br-3xl  hover:bg-background hover:text-white transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-logo active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
-                  <FaInstagram/>
-                  </button>
+                <FaInstagram />
               </a>
-              </motion.span>
-              <motion.span 
-              initial={{x:-250, opacity:0}}
-              animate={{x:0, opacity:[0, 0, 1]}}
-              transition={{delay:1, times:[0, 0.1, 0.11]}}>
               <a
-              className=" drop-shadow-[0px_12px_3px_rgba(255,208,0,0.35)] active:drop-shadow-none transition-all duration-500 flex md:justify-start justify-center"
-              target="_blank" href="https://www.facebook.com/sharpoetry/"
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
               >
-              <button className="bg-primary p-2 rounded-br-3xl  hover:bg-background hover:text-white transition-all duration-700 hover:ease-out hover:border-primary border-solid border-4 border-transparent font-zilla active:translate-y-3 active:drop-shadow-[0_5px_0px_rgba(255,208,0,1)] drop-shadow-[0_12px_0px_rgba(255,208,0,0.5)] hover:drop-shadow-[0_12px_0px_rgba(255,208,0,1)] lg:text-3xl md:text-3xl sm:text-3xl text-3xl">
-                <FaFacebook/>
-                </button>
-                </a>
-              </motion.span> */}
+                <FaFacebook />
+              </a>
+              <a
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
+              >
+                <FaTwitter />
+              </a>
+            </div>
+
+           
           </div>
         </div>
       </nav>

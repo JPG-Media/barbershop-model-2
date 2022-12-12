@@ -85,7 +85,7 @@ const Home: NextPage = () => {
       </div>
       {/* Gallery SECTION==================================================================================== */}
       {/* FOOTER========================================================================================*/}
-      <div className=" py-10 z-10 flex justify-center sm:px-8 items-center  bg-black w-full ">
+      <div className=" md:py-10 z-10 flex justify-center sm:px-8 items-center  bg-black w-full ">
         <Footer />
       </div>
 

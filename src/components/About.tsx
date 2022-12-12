@@ -4,12 +4,13 @@ import { GrStar } from "react-icons/gr";
 import Logo from "./Logo";
 import { about } from "../data/constants";
 import { motion } from "framer-motion";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const About = () => {
   const list: any = {
     initial: {},
     animate: {
-      transition:{staggerChildren:0.02}
+      transition: { staggerChildren: 0.02 },
     },
   };
 
@@ -55,22 +56,9 @@ const About = () => {
                   <motion.span variants={item}>
                     <GrStar />
                   </motion.span>
-                  <motion.span 
-                  initial={{ y: 0 }}
-                  animate={{ y: [0,-25,-25,0] }}
-                  transition={{
-                    duration: 1.5,
-                    times: [0, 0.25, 0.75, 1],
-                    repeat: Infinity,
-                    repeatDelay: 3.5,
-                    repeatType: "reverse",
-                  }}
-                  variants={item}>
-                    <GrStar />
-                  </motion.span>
                   <motion.span
                     initial={{ y: 0 }}
-                    animate={{ y: [0,-50,-50,0] }}
+                    animate={{ y: [0, -25, -25, 0] }}
                     transition={{
                       duration: 1.5,
                       times: [0, 0.25, 0.75, 1],
@@ -82,17 +70,32 @@ const About = () => {
                   >
                     <GrStar />
                   </motion.span>
-                  <motion.span 
-                  initial={{ y: 0 }}
-                  animate={{ y: [0,-25,-25,0] }}
-                  transition={{
-                    duration: 1.5,
-                    times: [0, 0.25, 0.75, 1],
-                    repeat: Infinity,
-                    repeatDelay: 3.5,
-                    repeatType: "reverse",
-                  }}
-                  variants={item}>
+                  <motion.span
+                    initial={{ y: 0 }}
+                    animate={{ y: [0, -50, -50, 0] }}
+                    transition={{
+                      duration: 1.5,
+                      times: [0, 0.25, 0.75, 1],
+                      repeat: Infinity,
+                      repeatDelay: 3.5,
+                      repeatType: "reverse",
+                    }}
+                    variants={item}
+                  >
+                    <GrStar />
+                  </motion.span>
+                  <motion.span
+                    initial={{ y: 0 }}
+                    animate={{ y: [0, -25, -25, 0] }}
+                    transition={{
+                      duration: 1.5,
+                      times: [0, 0.25, 0.75, 1],
+                      repeat: Infinity,
+                      repeatDelay: 3.5,
+                      repeatType: "reverse",
+                    }}
+                    variants={item}
+                  >
                     <GrStar />
                   </motion.span>
                   <motion.span variants={item}>
@@ -108,15 +111,38 @@ const About = () => {
                 {about.description}
               </p>
             </div>
-            <div className="w-full justify-center items-center flex flex-col gap-[3px]">
-              <div className="md:w-24 w-1/2 h-[5px] bg-primary rounded-t"></div>
-              <div className="md:w-24 w-1/2 h-2 bg-logo1 rounded-[2px] barber-pole"></div>
-              <div className="md:w-24 w-1/2 h-[5px] bg-logo rounded-b"></div>
-            </div>
             <div className="w-full flex justify-center">
-              <h1 className="  text-4xl font-zilla text-left text-primary mb-5">
+              <h1 className="text-center  text-3xl font-light font-text text-primary ">
                 {about.address}
               </h1>
+            </div>
+            <div className="w-full justify-center items-center flex flex-col gap-[3px] p-2">
+               
+              <div className="md:w-16 w-1/2 h-[4px] bg-logo rounded-b-3xl"></div>
+            </div>
+
+            <div className="flex-row flex h-full justify-center gap-6 items-center  ">
+              <a
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                target="_blank"
+                className="text-4xl"
+                href="https://www.instagram.com/sharpoetry/"
+              >
+                <FaTwitter />
+              </a>
             </div>
           </div>
           <div className="relative md:w-1/2 w-full h-1/2 flex justify-start items-center">
