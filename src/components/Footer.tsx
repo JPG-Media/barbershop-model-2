@@ -126,10 +126,9 @@ const Navbar = () => {
           </motion.li>
             </ul>
           </div>
-          <div className=" md:w-auto flex flex-col font-secondary gap-5 items-center justify-center border-solid border-l-2 border-[rgb(255,208,0)] p-4 text-gray-400 md:text-5xl xl:text-4xl sm:text-2xl text-md">
+          <div className=" md:w-auto flex gap-y-8 font-secondary items-center justify-center border-solid border-l-2 border-[rgb(255,208,0)] p-4 text-gray-400 md:text-5xl xl:text-4xl sm:text-2xl text-md">
             <SocialMediaIcons />
-            <SocialMediaIcons />
-            <SocialMediaIcons />
+
             {/* <motion.span
              initial={{x:-150, opacity:0}}
              animate={{x:0, opacity:[0, 0, 1]}}
