@@ -1,10 +1,7 @@
 import type { NextPage } from "next";
 import React from "react";
 import Head from "next/head";
-import {
-  barbershopInfo,
-  logo,
-} from "../src/data/constants"
+import { barbershopInfo, logo } from "../src/data/constants";
 import {
   Hero,
   Navbar,
@@ -19,7 +16,7 @@ import {
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-start bg-black">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-black">
       <Head>
         <title>{barbershopInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -33,21 +30,25 @@ const Home: NextPage = () => {
 
       {/* HERO SECTION==================================================================================== */}
       <div className=" py-4 flex justify-center items-center text-black backdrop-blur-md w-full border-solid border-b-[1px] border-[rgb(255,208,0)] bg-gradient-blue  ">
-        <div className="flex justify-center items-center py-4 px-4 w-full">
+        <div className="flex justify-center items-center py-4 px-4 w-11/12">
           <Hero />
         </div>
       </div>
       {/* HERO SECTION==================================================================================== 255, 208, 0*/}
 
       {/* ESTABLISHMENT========================================================================================255, 208, 0*/}
-      <div id="TheEstablishment" className=" py-10 z-10 flex flex-col px-2 md:px-10 items-start justify-start w-full  text-white border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black">
-        <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5">
-          <Logo name={logo.establishment} bg='black' />
+      <div
+        id="TheEstablishment"
+        className=" py-24 z-10 flex flex-col px-2 md:px-10 items-center justify-center w-full  text-white border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black"
+      >
+        <h1 className="lg:text-8xl sm:text-6xl text-4xl text-center font-logo font-bold py-6 mb-5
+        w-full justify-start items-start flex">
+          <Logo name={logo.establishment} bg="black" />
         </h1>
-
-        <Socials />
+        <div className="w-11/12 flex justify-center items-center">
+          <Socials />
+        </div>
       </div>
-
       {/* ESTABLISHMENT========================================================================================*/}
       {/* About======================================================================================== */}
 
@@ -55,14 +56,10 @@ const Home: NextPage = () => {
         id="About"
         className=" py-2 flex flex-col justify-start items-start border-solid border-b-[1px] border-[rgb(255,208,0)] bg-gradient-blue text-white backdrop-blur-md w-full px-2 md:px-10"
       >
-        
         <About />
-        
       </div>
 
       {/* About========================================================================================*/}
-
-      
 
       {/* SERVICES======================================================================================== */}
 
@@ -71,7 +68,7 @@ const Home: NextPage = () => {
         className="py-4 flex flex-col justify-start items-start border-solid border-b-[1px] border-[rgb(255,208,0)] bg-black text-white  w-full px-2 md:px-10"
       >
         <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
-          <Logo name="Services" bg='black'/>
+          <Logo name="Services" bg="black" />
         </h1>
         <Services />
       </div>

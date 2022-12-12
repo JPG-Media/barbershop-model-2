@@ -24,13 +24,17 @@ const Navbar = () => {
   return (
     <div className="w-full flex flex-col justify-center items-start bg-black rounded-3xl">
       <section className="w-full flex justify-center items-center relative mx-auto ">
-        <nav className="md:gap-0 gap-4 relative w-full flex p-4 items-center justify-center sm:px-2 ">
-          <Logo name={logo.nav} bg="black" />
+        <nav className="md:gap-0 gap-4 relative w-full flex p-4 items-center justify-between sm:px-2 ">
+          <div><Logo name={logo.nav} bg="black" /></div>
 
-          <div className="hidden md:block w-full">
-            
+          <div className="hidden md:block">
             <NavbarLeftItems />
           </div>
+          <div className="flex text-white  flex-col text-left items-start justify-center w-1//3">
+            <span className="hidden md:block">
+            <h1>(29) 847 43 23</h1>
+            <h1>Mon-Sat 09:30am-7:00pm</h1>
+            </span>
           {/** MOBILE HAMBURGER */}
           <button className="" onClick={handleButton}>
             <div
@@ -59,6 +63,9 @@ const Navbar = () => {
               ></span>
             </div>
           </button>
+          </div>
+
+          
           {/** MOBILE HAMBURGER */}
         </nav>
       </section>
@@ -67,7 +74,7 @@ const Navbar = () => {
           !toggle ? "hidden" : "flex animate-navbarMobile "
         } p-6 md:hidden justify-center items-center  w-full opacity-0 relative transition-all  right-0 left-0  my-2 rounded-xl flex`}
       >
-        <ul className="list-none  flex justify-end items-start w-full flex-col flex-1 text-white">
+        <ul className="list-none font-primary flex justify-end items-start w-full flex-col flex-1 text-white">
           <motion.li>
             <motion.a
               className=" rounded   items-center  justify-center  text-center "

@@ -5,10 +5,7 @@ import AnimatedText from "./AnimatedText";
 const NavbarLeftItems = () => {
   return (
     <div className="container px-4 w-full flex flex-wrap items-center justify-end gap-10 ">
-      <div className="flex text-white  flex-col text-left items-start justify-start">
-        <h1>(29) 847 43 23</h1>
-        <h1>Mon-Sat 09:30am-7:00pm</h1>
-      </div>
+     
       <div className="">
         <ul className="flex justify-center items-center gap-3 list-none w-full text-lg xl:text-2xl text-white font-text font-light ">
           <motion.li>

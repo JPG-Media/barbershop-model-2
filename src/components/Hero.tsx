@@ -23,22 +23,23 @@ const Hero = () => {
           <div className="p-10 w-full flex items-center justify-center">
             <Image src={SvgLogo} alt="a" width={150} />
           </div>
-          <h1 className="md:text-left text-center text-white">{hero}</h1>
-          <div className="w-full justify-center items-start flex flex-col gap-[3px] ">
-            <div className="md:w-16 w-1/2 h-[5px] bg-primary rounded-t"></div>
-            <div className="md:w-16 w-1/2 h-2 bg-logo1 rounded-[2px] barber-pole"></div>
-            <div className="md:w-16 w-1/2 h-[5px] bg-logo rounded-b"></div>
+          <div className="gap-2 flex flex-col">
+            <h1 className="md:text-left font-bold font-text text-center text-white">{hero}</h1>
+            <p className="text-gray-400 font-primary text-lg font-light">
+              HERO Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              impedit officiis dignissimos recusandae.
+            </p>
           </div>
+
+          
 
           <div className="flex  w-full flex-col md:flex-row text-3xl">
             <div className=" items-center justify-center md:justify-start flex w-full sm:gap-3 xl:gap-5 gap-2">
               <span className="z-10 font-medium text-white">
                 <BookNow />
               </span>
-
-              
             </div>
-      </div>
+          </div>
           <div className=" gap-4 flex font-primary font-extralight w-full justify-start pt-16">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -51,12 +52,10 @@ const Hero = () => {
             </svg>
             <h1 className="text-white text-base md:text-xl xl:text-3xl sm:text-sm">
               Minsk, rua Lenina, 33
-              </h1>
+            </h1>
           </div>
-          </div>
-
-
         </div>
+      </div>
     </div>
   );
 };
