@@ -3,7 +3,7 @@ import Image from "next/image";
 import SvgLogo from "../assets/SvgLogo.svg";
 import HeroCarousel from "./HeroCarousel";
 import BookNow from "./BookNow";
-import { hero } from "../data/constants";
+import { barbershopInfo, hero, hero2 } from "../data/constants";
 
 const Hero = () => {
   return (
@@ -26,8 +26,7 @@ const Hero = () => {
           <div className="gap-2 flex flex-col">
             <h1 className="md:text-left font-bold font-text text-center text-white">{hero}</h1>
             <p className="text-gray-400 font-primary text-lg font-light">
-              HERO Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-              impedit officiis dignissimos recusandae.
+              {hero2}
             </p>
           </div>
 
@@ -50,8 +49,8 @@ const Hero = () => {
             >
               <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
             </svg>
-            <h1 className="text-white text-base md:text-xl xl:text-3xl sm:text-sm">
-              Minsk, rua Lenina, 33
+            <h1 className="text-gray-300 text-base md:text-xl xl:text-2xl sm:text-sm">
+              {barbershopInfo.address}
             </h1>
           </div>
         </div>

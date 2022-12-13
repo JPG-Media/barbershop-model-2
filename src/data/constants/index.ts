@@ -1,13 +1,14 @@
 export const barbershopInfo = { 
-   name: "BARBERSHOP NAME", 
+   name: "William's Barbershop", 
    city: 'CITY',
-   xp: '',//I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,
+   xp: `I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,`,//I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,
    representing: ``, //Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.
    address: '4512 South Orange Blossom Trail, Orlando, State 32839', //4512 South Orange Blossom Trail, Orlando, State 32839
    
 };
 
-export const hero = 'lorem ipsum dolor sit amet ipsus cum dasos'
+export const hero = 'In Orlando, the most professional work.'
+export const hero2 = `Bringing the Latin way of cutting hair in the best way straight from Puerto Rico.`
 // `Bringing the latin way of cutting hair in the best way straight from Puerto Rico.`
 
 export const logo =  
@@ -52,7 +53,7 @@ export const services =  [
   ]; 
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend, I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend, I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}! Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.`;
 
 
 export const workingHours = {start: `Monday`, end: 'saturday', from: '9:30', to:'7:00', exception: 'Sunday', excFrom: 'closed', excTo:''};
@@ -68,7 +69,8 @@ export const workingHours = {start: `Monday`, end: 'saturday', from: '9:30', to:
   export const about = 
     {
 
-        description: `${barbershopInfo.name} is your Personal Barbershop. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+        description: `Bringing the latin way of cutting hair in the best way straight from Puerto Rico.
+        We are specialized in all types of men's haircuts and we do our best to please our customers, so that they come back to visit us and continue to recommend our work.${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
         address: barbershopInfo.address,
     }
 ;
