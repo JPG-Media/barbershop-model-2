@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
           <div className="flex md:justify-start md:items-start justify-center items-center text-center w-full py-4">
             <a className={`text-base  md:w-1/2 ${colors.secondaryText} font-primary font-light`}>
-              WilliamBarber©2022
+              {barbershopInfo.copyright}
             </a>
           </div>
         </div>

@@ -13,6 +13,7 @@ export const barbershopInfo = {
   instagram: `https://www.instagram.com/bigdawgbarberco/`,
   latitude: 47.256395,
   longitude: -122.440447,
+  copyright: 'Big Dawg Barber © 2022',
 };
 
 export const hero = "Working to keep your swag refreshed.";
