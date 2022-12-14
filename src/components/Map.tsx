@@ -29,7 +29,7 @@ function GMap() {
         center={sharpoetry}
         mapContainerClassName="w-full h-full rounded-tl-3xl rounded-br-3xl"
       >
-        <MarkerF position={sharpoetry} label='William Barbershop'/>
+        <MarkerF position={sharpoetry} label='Big Dawg Barber'/>
       </GoogleMap>
 
       <a className="text-2xl font-semibold py-4">
