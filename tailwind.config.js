@@ -9,15 +9,17 @@ module.exports = {
     "./src/data/constants/*.{js,jsx,ts,tsx}",
   ],
   mode: "jit",
- 
+
   theme: {
     extend: {
       colors: {
-        primary: "#ce4f46",
+        primary: "white",
         logo: "#aa1d4e",
         logo2: "#1a5a95",
-        secondary: "#032721",
-        background: "#FFF4DB",
+        secondary: "#e02424",
+        background: "black",
+        primaryText: "text-white",
+        secondaryText: "text-red-600",
         contrast: "#000000",
         blend: "#4d3e3e",
         dimWhite: "rgba(255, 255, 255, 0.7)",
@@ -43,7 +45,7 @@ module.exports = {
         loaderBg: {
           "0%": { opacity: "1" },
 
-          "100%": { opacity: "0"},
+          "100%": { opacity: "0" },
         },
         loaderRight: {
           "0%": { opacity: "1" },

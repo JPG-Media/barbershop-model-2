@@ -9,7 +9,9 @@ const Socials = () => {
       p-4  gap-5 "
       >
         <div className="w-full md:w-3/5 sm:pr-4 text-left flex items-center">
-          <p className={`font-primary xxl:text-3xl xl:text-2xl md:text-xl text-lg ${colors.primaryText} font-extralight `}>
+          <p
+            className={`font-primary xxl:text-3xl xl:text-2xl md:text-xl text-lg ${colors.primaryText} font-extralight `}
+          >
             {theEstablishment}
           </p>
         </div>
@@ -22,32 +24,40 @@ const Socials = () => {
         </div>
       </div>
 
-      <div className={`${colors.primaryText} py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5 `}>
-        <div className="p-10 border-solid border-[3px] border-primary rounded-bl-3xl  font-bold text-4xl font-logo w-full">
-          <h1>
-            {workingHours.start} <span className="font-primary">&#10233;</span>{" "}
-            {workingHours.end}
-          </h1>
-          <p>
-            {workingHours.from}
-            <span className={` font-primary`}>am to&nbsp;</span>
-            {workingHours.to}
-            <span className={` font-primary`}>pm</span>
-          </p>
-        </div>
-        <div className="p-11 border-solid border-[3px] border-secondary rounded-br-3xl  font-bold text-4xl font-logo w-full">
-          <h1>{workingHours.exception}</h1>
-          <p>
-            {workingHours.excFrom}
-            {
-            workingHours.excTo != '' ? 
-            <div className="inline">
-              <span className={` font-primary`}>am to&nbsp;</span>
-            {workingHours.excTo}
-            <span className={` font-primary`}>pm</span>
-            </div> : ''
-            }
-          </p>
+      <div
+        className={`${colors.primaryText} py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5 `}
+      >
+        <div className="p-10 border-solid border-[3px] border-secondary rounded  font-bold text-4xl font-logo  text-left flex justify-center items-center w-1/2">
+          <ul className="flex w-full flex-col items-center justify-center">
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Monday:</h1>
+              <p className="w-full text-right">{workingHours.Monday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Tuesday:</h1>
+              <p className="w-full text-right">{workingHours.Tuesday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Wednesday:</h1>
+              <p className="w-full text-right">{workingHours.Wednesday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Thursday:</h1>
+              <p className="w-full text-right">{workingHours.Thursday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Friday:</h1>
+              <p className="w-full text-right">{workingHours.Friday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Saturday:</h1>
+              <p className="w-full text-right">{workingHours.Saturday}</p>
+            </li>
+            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+              <h1 className="w-full text-left">Sunday:</h1>
+              <p className="w-full text-right">{workingHours.Sunday}</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

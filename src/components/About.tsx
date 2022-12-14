@@ -116,7 +116,7 @@ const About = () => {
               </p>
             </div>
             <div className="w-full flex justify-center">
-              <h1 className="text-center  text-3xl font-light font-text text-primary ">
+              <h1 className="text-center  text-3xl font-light font-text text-secondary ">
                 {about.address}
               </h1>
             </div>
