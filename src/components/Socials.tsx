@@ -1,5 +1,6 @@
 import React from "react";
 import { colors, theEstablishment, workingHours } from "../data/constants";
+import { placeImage } from "../data/constants";
 
 const Socials = () => {
   return (
@@ -17,7 +18,7 @@ const Socials = () => {
         </div>
         <div className="md:w-2/5 w-full  rounded-tl-3xl rounded-br-3xl">
           <img
-            src="/images/place.jpg"
+            src={placeImage}
             className="rounded-tl-2xl border-solid border-4 border-secondary rounded-br-2xl w-full h-full object-cover"
             alt="place"
           />

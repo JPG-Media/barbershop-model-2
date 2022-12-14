@@ -13,6 +13,7 @@ import {
   Gallery,
   Socials,
 } from "../src/components";
+import Team from "../src/components/Team";
 
 
 
@@ -89,7 +90,22 @@ const Home: NextPage = () => {
       </div>
 
       {/* SERVICES========================================================================================*/}
-      
+      {/* Team======================================================================================== */}
+
+      <div
+        id="Team"
+        className={`py-8 flex flex-col justify-start items-start border-solid border-b-[2px] border-primary bg-gradient-to-r 
+        ${colors.bgGradient} text-white  w-full px-2 md:px-10`}
+      >
+        <div className="flex md:justify-start justify-center md:items-start items-center w-full">
+          <h1 className="lg:text-8xl sm:text-6xl text-4xl  font-primary font-normal py-6">
+            <Logo name={logo.team.name} text={logo.team.text} border={logo.team.border} />
+          </h1>
+        </div>
+        <Team/>
+      </div>
+
+      {/* Team========================================================================================*/}
       {/* Gallery SECTION==================================================================================== */}
       <div
         id="Gallery"

@@ -38,8 +38,8 @@ const ServicesCard = (props: any) => {
 
   return (
     <div
-      className={`bg-gradient-to-r ${colors.bgGradient} w-10/12 gap-5 md:gap-0 p-10 lg:p-16 ${colors.primaryText} 
-       border-solid border-[1px] border-primary flex md:flex-row flex-col items-center justify-between`}
+      className={`bg-gradient-to-r ${colors.bgGradient} rounded w-10/12 gap-5 md:gap-0 p-10 lg:p-16 ${colors.primaryText} 
+       border-solid border-[2px] border-secondary flex md:flex-row flex-col items-center justify-between`}
     >
       <div
         ref={priceRef}

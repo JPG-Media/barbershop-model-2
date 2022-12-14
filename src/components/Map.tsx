@@ -23,7 +23,7 @@ function GMap() {
   const sharpoetry = useMemo(()=>({ lat: barbershopInfo.latitude, lng: barbershopInfo.longitude }), []);
 
   return (
-    <div className="w-full h-full flex justify-center items-center flex-col gap-4">
+    <div className="w-full h-full flex justify-center items-center flex-col gap-5">
       <GoogleMap
         zoom={13}
         center={sharpoetry}
@@ -32,7 +32,7 @@ function GMap() {
         <MarkerF position={sharpoetry} label='William Barbershop'/>
       </GoogleMap>
 
-      <a className="text-2xl font-semibold">
+      <a className="text-2xl font-semibold py-4">
         <BookNow name='Get Directions'/>
       </a>
     </div>

@@ -13,15 +13,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "white",
+        primary: "#e02424",
         logo: "#aa1d4e",
         logo2: "#1a5a95",
-        secondary: "#e02424",
+        secondary: "#5DB7DE",
         background: "black",
-        primaryText: "text-white",
-        secondaryText: "text-red-600",
         contrast: "#000000",
-        blend: "#4d3e3e",
+        blend: "#e02424",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "#021210",
       },
