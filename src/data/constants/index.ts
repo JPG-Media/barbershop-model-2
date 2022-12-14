@@ -11,6 +11,7 @@ export const barbershopInfo = {
   email: `kutinfd@Yahoo.com`,
   facebook: `https://www.facebook.com/KutinfedBarbershop/?fref=ts`,
   instagram: `https://www.instagram.com/kutinfed/`,
+  label: 'MAP LABEL',
   latitude: 32.86517666302819,
   longitude: -96.74233884049538,
 };
