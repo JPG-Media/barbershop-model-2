@@ -1,10 +1,13 @@
+
+
 export const barbershopInfo = { 
   name: "Kutinfed",
   city: 'Based in Dallas-Texas',
   xp: `We'll do our best to make you feel at home when you come to Kutinfed for a haircut and on top of the world when you leave.  If you are new to our barber shop, we invite you to make a haircut appointment and visit us. You'll learn why our customers say we offer haircuts and the “coldest fades in the game.`,
-  //I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,
-  representing: `Bringing to Dallas the most licensed and professional work possible. This is what makes Kutinfed Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment, you'll also enjoy our free cold beverages, cologne sample bar, cell phone charger station and more. You'll feel right at home when you come in and on top of the world when you leave.`, //Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.
-  address: '6514 Skillman, Dallas, TX 75231', //4512 South Orange Blossom Trail, Orlando, State 32839
+  
+  representing: `Bringing to Dallas the most licensed and professional work possible. This is what makes Kutinfed Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment, you'll also enjoy our free cold beverages, cologne sample bar, cell phone charger station and more. You'll feel right at home when you come in and on top of the world when you leave.`, 
+  address: '6514 Skillman, Dallas, TX 75231', 
+  
   phone:`214-642-1619`,
   miniAgenda: `Dallas, TX`,
   email: `kutinfd@Yahoo.com`,
@@ -28,13 +31,13 @@ export const logo =
    },
    establishment: {
     name:'The Establishment ',
-    text: 'text-black font-light',
-    border: 'border-black',
+    text: 'text-black font-light ',
+    border: `border-black`,
    },
    gallery: {
     name:'GALLERY',
     text: 'text-black font-light',
-    border: 'border-black',
+    border: 'border-contrast',
    },
    services: {
     name:'SERVICES',
@@ -49,7 +52,7 @@ export const logo =
    footer: {
     name:'Kutinfed',
     text: 'text-black font-light',
-    border: 'border-black',
+    border: 'border-contrast',
    },
  };
 
@@ -131,4 +134,8 @@ export const colors = {
   secondaryText: "text-gray-600",
   bgPrimary: "bg-white",
   bgGradient: "from-white to-[#FFF4DB]",
+  barberPole: "bg-black",
+  beforeBarberPole: "before:bg-black",
+  barberPoleBorder: "border-secondary",
+  beforeBarberPoleBorder: "before:border-secondary",
 }

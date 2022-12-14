@@ -6,8 +6,10 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+    "./src/data/constants/*.{js,jsx,ts,tsx}",
   ],
   mode: "jit",
+ 
   theme: {
     extend: {
       colors: {
@@ -16,7 +18,7 @@ module.exports = {
         logo2: "#1a5a95",
         secondary: "#032721",
         background: "#FFF4DB",
-        contrast: "#170312",
+        contrast: "#000000",
         blend: "#4d3e3e",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "#021210",

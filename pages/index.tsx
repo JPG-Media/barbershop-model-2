@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import React from "react";
 import Head from "next/head";
 import { barbershopInfo, colors, logo } from "../src/data/constants";
+
 import {
   Hero,
   Navbar,
@@ -13,12 +14,16 @@ import {
   Socials,
 } from "../src/components";
 
+
+
+
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-white to-[#FFF4DB]">
+    <div className={`flex min-h-screen flex-col items-center justify-center bg-gradient-to-r ${colors.bgGradient} `}>
       <Head>
         <title>{barbershopInfo.name}</title>
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
 
       {/* NAVBAR========================================================================================== */}
@@ -51,9 +56,9 @@ const Home: NextPage = () => {
           </h1>
           </div>
         </div>
-        {/* <div className="w-11/12 flex justify-center items-center">
+        <div className="w-11/12 flex justify-center items-center">
           <Socials />
-        </div> */}
+        </div>
       </div>
       {/* ESTABLISHMENT========================================================================================*/}
       {/* About======================================================================================== */}

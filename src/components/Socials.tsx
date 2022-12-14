@@ -22,29 +22,29 @@ const Socials = () => {
         </div>
       </div>
 
-      <div className="py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5 ">
-        <div className="p-10 border-solid border-[3px] border-primary rounded-bl-3xl text-white font-bold text-4xl font-logo w-full">
+      <div className={`${colors.primaryText} py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5 `}>
+        <div className="p-10 border-solid border-[3px] border-primary rounded-bl-3xl  font-bold text-4xl font-logo w-full">
           <h1>
             {workingHours.start} <span className="font-primary">&#10233;</span>{" "}
             {workingHours.end}
           </h1>
           <p>
             {workingHours.from}
-            <span className={`${colors.primaryText} font-primary`}>am to&nbsp;</span>
+            <span className={` font-primary`}>am to&nbsp;</span>
             {workingHours.to}
-            <span className={`${colors.primaryText} font-primary`}>pm</span>
+            <span className={` font-primary`}>pm</span>
           </p>
         </div>
-        <div className="p-11 border-solid border-[3px] border-secondary rounded-br-3xl text-white font-bold text-4xl font-logo w-full">
+        <div className="p-11 border-solid border-[3px] border-secondary rounded-br-3xl  font-bold text-4xl font-logo w-full">
           <h1>{workingHours.exception}</h1>
           <p>
             {workingHours.excFrom}
             {
             workingHours.excTo != '' ? 
             <div className="inline">
-              <span className={`${colors.primaryText} font-primary`}>am to&nbsp;</span>
+              <span className={` font-primary`}>am to&nbsp;</span>
             {workingHours.excTo}
-            <span className={`${colors.primaryText} font-primary`}>pm</span>
+            <span className={` font-primary`}>pm</span>
             </div> : ''
             }
           </p>

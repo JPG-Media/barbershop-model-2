@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="flex flex-col  items-center justify-start  w-full">
       <div className="md:px-10 xl:px-20 mx-auto flex flex-col md:flex-row items-center md:gap-10 font-belda text-3xl w-full">
         <div className="w-full md:w-2/3 mx-auto">
-              <div className="rounded-tl-[3rem] w-full flex items-center justify-center  p-4 md:min-h-[300px]">
+              <div className="rounded-tl-[3rem] w-full flex items-center justify-center  p-4 md:min-h-[300px] ">
                 <HeroCarousel />
           </div>
         </div>

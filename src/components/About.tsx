@@ -6,6 +6,8 @@ import { about, barbershopInfo, colors, logo } from "../data/constants";
 import { motion } from "framer-motion";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
+
+
 const About = () => {
   const list: any = {
     initial: {},
