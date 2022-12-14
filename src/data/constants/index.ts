@@ -1,23 +1,22 @@
 export const barbershopInfo = {
-  name: "Kutinfed",
-  city: "Based in Dallas-Texas",
-  xp: `We'll do our best to make you feel at home when you come to Kutinfed for a haircut and on top of the world when you leave.  If you are new to our barber shop, we invite you to make a haircut appointment and visit us. You'll learn why our customers say we offer haircuts and the “coldest fades in the game.`,
+  name: "Big Dawg Barber",
+  city: "Based in Washington",
+  xp: ``,
 
-  representing: `Bringing to Dallas the most licensed and professional work possible. This is what makes Kutinfed Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment, you'll also enjoy our free cold beverages, cologne sample bar, cell phone charger station and more. You'll feel right at home when you come in and on top of the world when you leave.`,
-  address: "6514 Skillman, Dallas, TX 75231",
-
-  phone: `214-642-1619`,
-  miniAgenda: `Dallas, TX`,
-  email: `kutinfd@Yahoo.com`,
-  facebook: `https://www.facebook.com/KutinfedBarbershop/?fref=ts`,
-  instagram: `https://www.instagram.com/kutinfed/`,
+  representing: `Bringing to Washington the most licensed and professional work possible. This is what makes Big Dawg Barber a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: "743 broadway Tacoma, Washington	98402",
   label: 'MAP LABEL',
-  latitude: 32.86517666302819,
-  longitude: -96.74233884049538,
+  phone: `(518) 469-5205`,
+  miniAgenda: `Mon-Sat 11:00AM-5:00PM`,
+  email: `bigdawgbarberco@gmail.com`,
+  facebook: `https://www.facebook.com/bigdawgbarberco`,
+  instagram: `https://www.instagram.com/bigdawgbarberco/`,
+  latitude: 47.256395,
+  longitude: -122.440447,
 };
 
-export const hero = "Finests haircuts to keep your swag fresh.";
-export const hero2 = `You'll learn why our customers say we offer haircuts and the “coldest fades in the game.”
+export const hero = "Working to keep your swag refreshed.";
+export const hero2 = `From the barber who loves what he does and who will give you the best haircut in town.”
 `;
 
 export const colors = {
@@ -43,7 +42,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Kutinfed",
+    name: "BigDawgBarber",
     text: "text-white",
     border: "border-white",
   },
@@ -73,7 +72,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Kutinfed",
+    name: "BigDawgBarber",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -82,50 +81,62 @@ export const logo = {
 export const services = [
   {
     id: 1,
-    name: "Haircuts Men & Women",
-    price: "32",
-    description: "",
+    name: "Transformation Styled Cut",
+    price: "50",
+    description: "Haven't had a haircut in a few months? From Long hair to skin fade, ANY transformation cuts, scissor styled cuts, customize any look with different types of fades, various necklines, and shaved lines or hair designs. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services",
   },
 
   {
     id: 2,
-    name: "Haircut & Beard Trim",
-    price: "37",
-    description: "",
+    name: "Big Dawg Haircut",
+    price: "45",
+    description: "Any transformation cuts will be longer service and starting at +45$. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services. Please add any notes or questions for additional services or people",
   },
 
   {
     id: 3,
-    name: "Kojack Bald Haircut",
-    price: "50",
-    description: "",
+    name: "Big Dawg Haircut & Beard Grooming",
+    price: "60",
+    description: "Cut & Styled to your choosing additional details will apply. Full consultation. Finished with Straight razor on neck and temple. Beard: Hot Towel. Beard grooming with straight razor. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services. Please add any notes or questions for additional services",
   },
 
   {
     id: 4,
-    name: "Child Haircuts",
-    price: "23",
-    description: "",
+    name: "Big Dawg Beard",
+    price: "25+",
+    description: "Trim, Clean up, any way you want. Using straight razor & hot towel. Lean back & relax. You’ll never go back to shaving yourself. We'll get the beard you've been wanting! Prices are subjected to change upon consultation and service. Please leave a note for any additional services or questions",
   },
 
   {
     id: 5,
-    name: "Eyebrow Detail",
-    price: "25",
-    description: "",
+    name: "Hot Shave (Head or Beard)",
+    price: "50",
+    description: "Full hot shave comes with Hot Lather & straight razor. 2 Hot towels. Full consultation at time of service, prices are subjected to change",
+  },
+  {
+    id: 6,
+    name: "Eyebrows",
+    price: "10",
+    description: "Eyebrow Clean Up, Add to your service to complete the full experience, leaving fresh & relaxed!",
+  },
+  {
+    id: 7,
+    name: "Head Wash",
+    price: "07",
+    description: "Head Wash, Add to your service to complete the full experience, leaving fresh & relaxed!",
   },
 ];
 
 export const theEstablishment = `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `1:00pm ⟹ 6:30pm`,
-  Tuesday: "1:00pm ⟹ 6:30pm",
-  Wednesday: "1:00pm ⟹ 6:30pm",
-  Thursday: "1:00pm ⟹ 6:30pm",
-  Friday: "1:00pm ⟹ 6:30pm",
-  Saturday: "1:00pm ⟹ 6:30pm",
-  Sunday: "1:00pm ⟹ 6:30pm",
+  Monday: `Closed`,
+  Tuesday: "9:00pm ⟹ 6:30pm",
+  Wednesday: "9:00pm ⟹ 6:30pm",
+  Thursday: "9:00pm ⟹ 6:30pm",
+  Friday: "9:00pm ⟹ 6:30pm",
+  Saturday: "9:00pm ⟹ 3:00pm",
+  Sunday: "Closed",
 };
 
 export const placeImage = "/images/place.jpg";
@@ -150,7 +161,7 @@ export const images = [
 ];
 
 export const about = {
-  description: `${barbershopInfo.name} is your Personal Barbershop, based in Dallas-Texas. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+  description: `${barbershopInfo.name} is your Personal Barbershop, ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
   address: barbershopInfo.address,
 };
 
