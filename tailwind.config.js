@@ -11,11 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "rgb(255, 208, 0)",
+        primary: "#ce4f46",
         logo: "#aa1d4e",
         logo2: "#1a5a95",
         secondary: "#032721",
-        background: "#010f0d",
+        background: "#FFF4DB",
         contrast: "#170312",
         blend: "#4d3e3e",
         dimWhite: "rgba(255, 255, 255, 0.7)",

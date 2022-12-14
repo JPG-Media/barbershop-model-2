@@ -1,76 +1,134 @@
 export const barbershopInfo = { 
-   name: "William's Barbershop", 
-   city: 'CITY',
-   xp: `I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,`,//I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,
-   representing: ``, //Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.
-   address: '4512 South Orange Blossom Trail, Orlando, State 32839', //4512 South Orange Blossom Trail, Orlando, State 32839
-   
+  name: "Kutinfed",
+  city: 'Based in Dallas-Texas',
+  xp: `We'll do our best to make you feel at home when you come to Kutinfed for a haircut and on top of the world when you leave.  If you are new to our barber shop, we invite you to make a haircut appointment and visit us. You'll learn why our customers say we offer haircuts and the “coldest fades in the game.`,
+  //I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,
+  representing: `Bringing to Dallas the most licensed and professional work possible. This is what makes Kutinfed Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment, you'll also enjoy our free cold beverages, cologne sample bar, cell phone charger station and more. You'll feel right at home when you come in and on top of the world when you leave.`, //Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.
+  address: '6514 Skillman, Dallas, TX 75231', //4512 South Orange Blossom Trail, Orlando, State 32839
+  phone:`214-642-1619`,
+  miniAgenda: `Dallas, TX`,
+  email: `kutinfd@Yahoo.com`,
+  facebook: `https://www.facebook.com/KutinfedBarbershop/?fref=ts`,
+  instagram: `https://www.instagram.com/kutinfed/`,
+  latitude: 32.86517666302819,
+  longitude: -96.74233884049538,
 };
 
-export const hero = 'In Orlando, the most professional work.'
-export const hero2 = `Bringing the Latin way of cutting hair in the best way straight from Puerto Rico.`
+export const hero = 'Finests haircuts to keep your swag fresh.'
+export const hero2 = `You'll learn why our customers say we offer haircuts and the “coldest fades in the game.”
+`
 // `Bringing the latin way of cutting hair in the best way straight from Puerto Rico.`
 
 export const logo =  
-    {
-    nav: 'WilliamBarber',
-    establishment: 'The Establishment',
-    gallery: 'GALLERY',
-    services: 'SERVICES',
-    about: 'ABOUT'
-  };
+   {
+   nav: {
+    name:'Kutinfed',
+    text: 'text-white',
+    border: 'border-white',
+   },
+   establishment: {
+    name:'The Establishment ',
+    text: 'text-black font-light',
+    border: 'border-black',
+   },
+   gallery: {
+    name:'GALLERY',
+    text: 'text-black font-light',
+    border: 'border-black',
+   },
+   services: {
+    name:'SERVICES',
+    text: 'text-black font-semibold',
+    border: 'border-black',
+   },
+   about: {
+    name:'ABOUT',
+    text: 'text-black font-light',
+    border: 'border-black',
+   },
+   footer: {
+    name:'Kutinfed',
+    text: 'text-black font-light',
+    border: 'border-black',
+   },
+ };
 
 export const services =  [
-    {
-        id:1, 
-        name: 'Skin Fade', 
-        price: '40', 
-        description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
-    },
+   {
+       id:1, 
+       name: 'Haircuts Men & Women', 
+       price: '32', 
+       description: ''
+   },
 
-    {
-        id:2, 
-        name: 'Haircut & Style', 
-        price: '30', 
-        description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
-    },
+   {
+       id:2, 
+       name: 'Haircut & Beard Trim', 
+       price: '37', 
+       description: ''
+   },
 
-    {
-        id:3, 
-        name: 'Haircut & Beard trim', 
-        price: '35', 
-        description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
-    },
+   {
+       id:3, 
+       name: 'Kojack Bald Haircut', 
+       price: '50', 
+       description: ''
+   },
 
-    {
-        id:4, 
-        name: "Woman's Services", 
-        price: '35+', 
-        description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
-    },
+   {
+     id:4, 
+     name: 'Child Haircuts', 
+     price: '23', 
+     description: ''
+ },
 
-   
-  ]; 
+ {
+   id:5, 
+   name: 'Eyebrow Detail', 
+   price: '25', 
+   description: ''
+},
+
+
+
+
+  
+ ]; 
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend, I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}! Bringing the latin way of cutting hair in the best way straight from Puerto Rico. This is what makes William's Barbershop a different and a special place.`;
+ `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 
-export const workingHours = {start: `Monday`, end: 'saturday', from: '9:30', to:'7:00', exception: 'Sunday', excFrom: 'closed', excTo:''};
+export const workingHours = {start: `Tuesday `, end: 'Friday ', from: '9:00', to:'6:30', exception: 'Saturday ', excFrom: '9:00', excTo:'3:00'};
 
 
-  export const images = [
+ export const images = [
     '/images/gallery/gallery1.jpg', 
     '/images/gallery/gallery2.jpg',    
     '/images/gallery/gallery3.jpg',      
     '/images/gallery/gallery4.jpg', 
-  ];
+    '/images/gallery/gallery5.jpg', 
+    '/images/gallery/gallery6.jpg', 
+    '/images/gallery/gallery7.jpg', 
+    '/images/gallery/gallery8.jpg',
+ ];
 
-  export const about = 
-    {
+ export const about = 
+   {
 
-        description: `Bringing the latin way of cutting hair in the best way straight from Puerto Rico.
-        We are specialized in all types of men's haircuts and we do our best to please our customers, so that they come back to visit us and continue to recommend our work.${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-        address: barbershopInfo.address,
-    }
+       description: `${barbershopInfo.name} is your Personal Barbershop, based in Dallas-Texas. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+       address: barbershopInfo.address,
+   }
 ;
+
+export const colors = {
+  primary: "#ce4f46",
+  logo: "#aa1d4e",
+  logo2: "#1a5a95",
+  secondary: "#ce4f46",
+  background: "white",
+  primaryText: "text-black",
+  secondaryText: "text-gray-600",
+  bgPrimary: "bg-white",
+  bgGradient: "from-white to-[#FFF4DB]",
+}

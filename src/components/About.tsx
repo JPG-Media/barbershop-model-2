@@ -2,7 +2,7 @@ import React from "react";
 import Map from "./Map";
 import { GrStar } from "react-icons/gr";
 import Logo from "./Logo";
-import { about } from "../data/constants";
+import { about, barbershopInfo, colors, logo } from "../data/constants";
 import { motion } from "framer-motion";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -34,10 +34,10 @@ const About = () => {
   };
 
   return (
-    <div className="flex md:flex-row flex-col py-4">
+    <div className="flex md:flex-row flex-col">
       <div className="flex justify-center md:items-start items-center">
-      <h1 className="lg:text-8xl sm:text-6xl text-4xl font-logo font-bold pt-4">
-        <Logo name="ABOUT" bg="black" />
+      <h1 className="lg:text-8xl sm:text-6xl text-4xl font-logo font-bold">
+        <Logo name={logo.about.name} text={logo.about.text} border={logo.about.border} />
       </h1>
       </div>
       <div className="w-full flex  px-2 md:px-10  gap-8 relative  min-h-[60vh]  rounded-tl-3xl rounded-br-3xl mt-10">
@@ -45,7 +45,7 @@ const About = () => {
           <div className="flex h-1/2 flex-col md:w-1/2 justify-center items-center gap-5 md:mr-10 lg:px-6">
             <div className="w-full flex justify-start">
               <h1
-                className="flex justify-between items-end w-full text-4xl font-zilla text-center 
+                className="flex justify-between items-end w-full text-4xl text-center 
             text-yellow-400 mb-10 "
               >
                 <div className=" h-1 w-1/3 flex items-center rounded-bl-[45px]"></div>
@@ -109,7 +109,7 @@ const About = () => {
             </div>
 
             <div>
-              <p className="text-white font-primary font-extralight xl:text-3xl sm:text-2xl  text-md  ">
+              <p className= {`${colors.primaryText} font-primary font-light xl:text-2xl sm:text-xl  text-md`}>
                 {about.description}
               </p>
             </div>
@@ -126,30 +126,24 @@ const About = () => {
             <div className="flex-row flex h-full justify-center gap-6 items-center mb-5 ">
               <a
                 target="_blank"
-                className="text-4xl"
-                href="https://www.instagram.com/sharpoetry/"
+                className={`text-4xl ${colors.primaryText}`}
+                href={barbershopInfo.instagram}
               >
                 <FaInstagram />
               </a>
               <a
                 target="_blank"
-                className="text-4xl"
-                href="https://www.instagram.com/sharpoetry/"
+                className={`text-4xl ${colors.primaryText}`}
+                href={barbershopInfo.facebook}
               >
                 <FaFacebook />
               </a>
-              <a
-                target="_blank"
-                className="text-4xl"
-                href="https://www.instagram.com/sharpoetry/"
-              >
-                <FaTwitter />
-              </a>
+              
             </div>
           </div>
           <div className="relative md:w-1/2 w-full h-1/2 flex justify-start items-center">
-            <div className="w-full  flex justify-end items-center bg-gradient-dark rounded-tl-3xl rounded-br-3xl ">
-              <div className="w-full h-[50vh] sm:h-[60vh]">
+            <div className="w-full  flex justify-end items-center rounded-tl-3xl rounded-br-3xl ">
+              <div className="w-full h-[70vh] sm:h-[60vh]">
                 <Map />
               </div>
             </div>

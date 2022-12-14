@@ -3,7 +3,7 @@ import NavbarLeftItems from "./NavbarLeftItems";
 import { useState } from "react";
 5;
 import Logo from "./Logo";
-import { logo } from "../data/constants";
+import { barbershopInfo, logo } from "../data/constants";
 import { AnimatePresence, motion } from "framer-motion";
 import AnimatedText from "./AnimatedText";
 
@@ -25,15 +25,15 @@ const Navbar = () => {
     <div className="w-full flex flex-col justify-center items-start bg-black rounded-3xl">
       <section className="w-full flex justify-center items-center relative mx-auto ">
         <nav className="md:gap-0 gap-4 relative w-full flex p-4 items-center justify-between sm:px-2 ">
-          <div><Logo name={logo.nav} bg="black" /></div>
+          <div><Logo name={logo.nav.name} text={logo.nav.text} border={logo.nav.border} /></div>
 
           <div className="hidden md:block">
             <NavbarLeftItems />
           </div>
           <div className="flex text-white  flex-col text-left items-start justify-center w-1//3">
-            <span className="hidden md:block">
-            <h1>(29) 847 43 23</h1>
-            <h1>Mon-Sat 09:30am-7:00pm</h1>
+            <span className="hidden md:block font-text">
+            <h1>{barbershopInfo.phone}</h1>
+            <h1>{barbershopInfo.miniAgenda}</h1>
             </span>
           {/** MOBILE HAMBURGER */}
           <button className="" onClick={handleButton}>
@@ -146,8 +146,8 @@ const Navbar = () => {
             </motion.a>
           </motion.li>
           <li>
-          <h1>(29) 847 43 23</h1>
-            <h1>Mon-Sat 09:30am-7:00pm</h1>
+          <h1>{barbershopInfo.phone}</h1>
+            <h1>{barbershopInfo.miniAgenda}</h1>
           </li>
         </ul>
       </div>

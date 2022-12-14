@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useRef, useState, useMemo } from "react";
 import BarberPole from "./BarberPole";
 import { AnimatePresence, motion } from "framer-motion";
+import { colors } from "../data/constants";
 
 const useElementOnScreen = (options: any) => {
   const targetRef = useRef(null);
@@ -37,8 +38,8 @@ const ServicesCard = (props: any) => {
 
   return (
     <div
-      className="bg-gradient-green w-10/12 gap-5 md:gap-0 p-10 lg:p-16 text-white 
-       border-solid border-[1px] border-[rgb(255,208,0)] flex md:flex-row flex-col items-center justify-between"
+      className={`bg-gradient-to-r ${colors.bgGradient} w-10/12 gap-5 md:gap-0 p-10 lg:p-16 ${colors.primaryText} 
+       border-solid border-[1px] border-primary flex md:flex-row flex-col items-center justify-between`}
     >
       <div
         ref={priceRef}
@@ -47,7 +48,7 @@ const ServicesCard = (props: any) => {
         <h1 className="text-4xl lg:text-6xl justify-center font-medium font-logo uppercase">
           {props.name}
         </h1>
-        <p className="text-lg font-primary font-extralight lg:text-xl text-gray-400">
+        <p className={`text-lg font-primary font-extralight lg:text-xl ${colors.secondaryText}`}>
           {props.description}
         </p>
       </div>
@@ -92,13 +93,13 @@ const ServicesCard = (props: any) => {
 
           className={`${
             priceIsVisible ? "" : ""
-          }  text-5xl lg:text-8xl text-white font-primary font-bold`}  
+          }  text-5xl lg:text-8xl ${colors.primaryText} font-primary font-bold`}  
             >
-          <span className="font-primary font-normal leading-loose text-2xl lg:text-4xl text-gray-400">
+          <span className={`font-primary font-normal leading-loose text-2xl lg:text-4xl ${colors.secondaryText}`}>
             $
           </span>
           {props.price}
-          <span className=" font-normal leading-loose  text-2xl lg:text-5xl text-gray-400">
+          <span className={`font-normal leading-loose  text-2xl lg:text-5xl ${colors.secondaryText}`}>
             ,00
           </span>
         </motion.h1>

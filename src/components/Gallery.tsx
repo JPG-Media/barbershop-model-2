@@ -1,4 +1,5 @@
 import React from "react";
+import { logo } from "../data/constants";
 import Example from "./Example";
 import Logo from "./Logo";
 
@@ -9,7 +10,7 @@ const Gallery = () => {
     <div className="flex flex-col w-full justify-center items-center ">
       <div className="flex md:justify-start justify-center md:items-start items-center w-full">
       <h1 className="lg:text-8xl sm:text-6xl text-4xl py-6">
-        <Logo name='Gallery' bg='background'/>
+        <Logo name={logo.gallery.name} text={logo.gallery.text} border={logo.gallery.border}/>
       </h1></div>
       <div className="w-full h-full mx-auto bg-background rounded-tl-3xl rounded-br-3xl">
         <div className="flex flex-col w-full justify-center items-center ">

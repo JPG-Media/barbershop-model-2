@@ -14,7 +14,6 @@ import Logo from "./Logo"
 import Socials from "./Socials";
 import SocialMediaIcons from "./SocialMediaIcons";
 import Services from "./Services";
-import Loader from "./Loader";
 import Example from "./Example";
 import AnimatedText from "./AnimatedText"
 
@@ -29,7 +28,6 @@ export {
     Gallery,
     Hero,
     HeroCarousel,
-    Loader,
     Navbar,
     NavbarLeftItems,
     NavbarRightItems,

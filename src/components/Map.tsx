@@ -2,6 +2,8 @@ import React from "react";
 import { useMemo } from "react";
 import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 import BarberPole from "./BarberPole";
+import { barbershopInfo } from "../data/constants";
+import BookNow from "./BookNow";
 
 const Map = () => {
   const { isLoaded } = useLoadScript({
@@ -18,17 +20,21 @@ const Map = () => {
 };
 
 function GMap() {
-  const sharpoetry = useMemo(()=>({ lat: 26.4570534, lng: -80.1212205 }), []);
+  const sharpoetry = useMemo(()=>({ lat: barbershopInfo.latitude, lng: barbershopInfo.longitude }), []);
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex justify-center items-center flex-col gap-4">
       <GoogleMap
         zoom={13}
         center={sharpoetry}
         mapContainerClassName="w-full h-full rounded-tl-3xl rounded-br-3xl"
       >
-        <MarkerF position={sharpoetry} label='Barbershop'/>
+        <MarkerF position={sharpoetry} label='William Barbershop'/>
       </GoogleMap>
+
+      <a className="text-2xl font-semibold">
+        <BookNow name='Get Directions'/>
+      </a>
     </div>
   );
 }

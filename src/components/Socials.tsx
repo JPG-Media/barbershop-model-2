@@ -1,22 +1,22 @@
 import React from "react";
-import { theEstablishment, workingHours } from "../data/constants";
+import { colors, theEstablishment, workingHours } from "../data/constants";
 
 const Socials = () => {
   return (
-    <div className="md:p-0 w-full flex flex-col">
+    <div className="md:p-0 w-full gap-24 flex flex-col">
       <div
-        className=" w-full flex flex-col md:flex-row sm:p-10
-      p-4  gap-5bg-gradient-green"
+        className=" w-full flex flex-col md:flex-row sm:py-4
+      p-4  gap-5 "
       >
-        <div className="w-full md:w-3/5 sm:px-10 text-left flex items-center">
-          <p className="font-primary xxl:text-4xl xl:text-3xl md:text-3xl text-xl text-white font-extralight ">
+        <div className="w-full md:w-3/5 sm:pr-4 text-left flex items-center">
+          <p className={`font-primary xxl:text-3xl xl:text-2xl md:text-xl text-lg ${colors.primaryText} font-extralight `}>
             {theEstablishment}
           </p>
         </div>
         <div className="md:w-2/5 w-full  rounded-tl-3xl rounded-br-3xl">
           <img
             src="/images/place.jpg"
-            className="rounded-tl-2xl border-solid border-4 border-background rounded-br-2xl w-full h-full object-cover"
+            className="rounded-tl-2xl border-solid border-4 border-secondary rounded-br-2xl w-full h-full object-cover"
             alt="place"
           />
         </div>
@@ -30,9 +30,9 @@ const Socials = () => {
           </h1>
           <p>
             {workingHours.from}
-            <span className="text-white font-primary">am to&nbsp;</span>
+            <span className={`${colors.primaryText} font-primary`}>am to&nbsp;</span>
             {workingHours.to}
-            <span className="text-white font-primary">pm</span>
+            <span className={`${colors.primaryText} font-primary`}>pm</span>
           </p>
         </div>
         <div className="p-11 border-solid border-[3px] border-secondary rounded-br-3xl text-white font-bold text-4xl font-logo w-full">
@@ -41,10 +41,10 @@ const Socials = () => {
             {workingHours.excFrom}
             {
             workingHours.excTo != '' ? 
-            <div>
-              <span className="text-white font-primary">am to&nbsp;</span>
+            <div className="inline">
+              <span className={`${colors.primaryText} font-primary`}>am to&nbsp;</span>
             {workingHours.excTo}
-            <span className="text-white font-primary">pm</span>
+            <span className={`${colors.primaryText} font-primary`}>pm</span>
             </div> : ''
             }
           </p>

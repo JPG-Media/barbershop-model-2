@@ -23,7 +23,7 @@ const Services = () => {
         )
       })}
       <div className=" flex justify-center items-center w-full p-10 text-3xl font-text font-semibold">
-              <BookNow />
+              <BookNow name='Book Now'/>
             </div>
     </div>
   )

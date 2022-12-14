@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "../data/constants";
+import { colors, images } from "../data/constants";
 import AnimatedText from "./AnimatedText";
 
 
@@ -54,7 +54,7 @@ export const Example = () => {
   return (
     
     <div className=" flex rounded-tl-[45px] overflow-hidden justify-between items-center py-10 p-4 md:px-10 md:top-none bottom-0">
-      <motion.div className="prev md:block hidden" onClick={() => paginate(-1)}
+      <motion.div className="prev md:block hidden " onClick={() => paginate(-1)}
       whileHover={"visible"}
       variants={{
         visible: {
@@ -65,7 +65,9 @@ export const Example = () => {
           },
         },
       }}>
+        <span className={`${colors.primaryText}`}>
         <AnimatedText text="PREVIOUS" type="heading2"/>
+        </span>
       </motion.div>
 
       <div className="flex flex-col w-full h-full relative">
@@ -115,8 +117,8 @@ export const Example = () => {
           },
         },
       }}>
-        <span className="text-2xl">
-        <AnimatedText text="PREV" type="heading2"/>
+        <span className={`text-2xl ${colors.primaryText}`}>
+        <AnimatedText text="NEXT" type="paragraph"/>
         </span>
       </motion.div>
 
@@ -131,7 +133,7 @@ export const Example = () => {
           },
         },
       }}>
-        <span className="text-2xl">
+        <span className={`${colors.primaryText} text-2xl`}>
         <AnimatedText text="NEXT" type="paragraph"/>
         </span>
       </motion.div>
@@ -150,7 +152,9 @@ export const Example = () => {
           },
         },
       }}>
+        <span className={`${colors.primaryText}`}>
         <AnimatedText text="NEXT" type="heading2"/>
+        </span>
       </motion.div>
       </div>
 

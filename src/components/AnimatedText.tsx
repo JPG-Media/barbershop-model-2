@@ -1,6 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { colors } from "../data/constants";
+
+
+
+
+
 // Word wrapper
 const Wrapper = (props: any) => {
   // We'll do this to prevent wrapping of words using CSS
@@ -22,12 +28,12 @@ const AnimatedCharacters = (props: any) => {
   const item = {
     hidden: {
       y: 0,
-      color: "rgb(255,208,0)",
+      color: colors.primary,
       transition: { duration: 0.5, repeat:Infinity, repeatDelay: 1.5, }
     },
     visible: {
       y: 0,
-      color: "rgb(255,208,0)", //#FF0088
+      color: colors.primary, //#FF0088
       transition: { duration: 0.03}
     }
   };

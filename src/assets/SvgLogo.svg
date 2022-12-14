@@ -3,11 +3,11 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #aaa;
+        fill: #777;
       }
 
       .cls-2 {
-        fill: #fff;
+        fill: #777;
       }
     </style>
   </defs>
