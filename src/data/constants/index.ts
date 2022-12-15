@@ -5,14 +5,14 @@ export const barbershopInfo = {
 
   representing: `Bringing to Washington the most licensed and professional work possible. This is what makes Big Dawg Barber a different and a special place. Enjoy our always clean and professional barber shop environment.`,
   address: "743 broadway Tacoma, Washington	98402",
-  label: 'MAP LABEL',
+  label: 'BigDawgBarber',
   phone: `(518) 469-5205`,
-  miniAgenda: `Mon-Sat 11:00AM-5:00PM`,
+  miniAgenda: `Wed-Sun 11:00AM-5:00PM`,
   email: `bigdawgbarberco@gmail.com`,
   facebook: `https://www.facebook.com/bigdawgbarberco`,
   instagram: `https://www.instagram.com/bigdawgbarberco/`,
-  latitude: 47.256395,
-  longitude: -122.440447,
+  latitude: 47.25635,
+  longitude: -122.4408049,
   copyright: 'Big Dawg Barber © 2022',
 };
 
@@ -29,7 +29,7 @@ export const colors = {
   primaryText: "text-white",
   secondaryText: "text-gray-300",
   bgPrimary: "bg-black",
-  bgGradient: "from-black to-[#101010]",
+  bgGradient: "from-black to-[#000320]",
   barberPole: "bg-white",
   beforeBarberPole: "before:bg-white",
   barberPoleBorder: "border-black",
@@ -132,15 +132,15 @@ export const theEstablishment = `The ${barbershopInfo.name} is a place decorated
 
 export const workingHours = {
   Monday: `Closed`,
-  Tuesday: "9:00pm ⟹ 6:30pm",
-  Wednesday: "9:00pm ⟹ 6:30pm",
-  Thursday: "9:00pm ⟹ 6:30pm",
-  Friday: "9:00pm ⟹ 6:30pm",
-  Saturday: "9:00pm ⟹ 3:00pm",
-  Sunday: "Closed",
+  Tuesday: "Closed",
+  Wednesday: "11:00am ⟹ 5:00pm",
+  Thursday: "11:00am ⟹ 5:00pm",
+  Friday: "11:00am ⟹ 5:00pm",
+  Saturday: "11:00am ⟹ 5:00pm",
+  Sunday: "11:00am ⟹ 5:00pm",
 };
 
-export const placeImage = "/images/place.jpg";
+export const placeImage = "/images/place.png";
 
 export const heroImages = [
   { id: "hero1", url: "/images/hero1.jpg", title: "HERO1", isFirst: true },
@@ -156,9 +156,6 @@ export const images = [
   "/images/gallery/gallery5.jpg",
   "/images/gallery/gallery6.jpg",
   "/images/gallery/gallery7.jpg",
-  "/images/gallery/gallery8.jpg",
-  "/images/gallery/gallery9.jpg",
-  "/images/gallery/gallery10.jpg",
 ];
 
 export const about = {

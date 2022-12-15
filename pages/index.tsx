@@ -92,7 +92,7 @@ const Home: NextPage = () => {
       {/* SERVICES========================================================================================*/}
       {/* Team======================================================================================== */}
 
-      <div
+      {/* <div
         id="Team"
         className={`py-8 flex flex-col justify-start items-start border-solid border-b-[2px] border-primary bg-gradient-to-r 
         ${colors.bgGradient} text-white  w-full px-2 md:px-10`}
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
         <Team/>
-      </div>
+      </div> */}
 
       {/* Team========================================================================================*/}
       {/* Gallery SECTION==================================================================================== */}
