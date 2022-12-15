@@ -1,28 +1,24 @@
 export const barbershopInfo = {
-  name: "Bowtie Barber Club", 
-  city: 'based in Nashville- Tennessee and in Oxford- Ohio',
-  xp: `The Bowtie Barber Club was founded and created by Keith Weiser in 2015. For years Keith was a professional baseball player for the Colorado Rockies organization. He played eight great years of the game before retiring as a left-handed pitcher and moving to Nashville. On the day he married his wife, Keith and his bachelor party went into Master's Barber School in Mt. Juliet to get a fresh cut and hot towel shave. That experience sparked an idea for Keith, in which he created Bowtie Barber Club.
+  name: "Cuts N Blessings Barbershop", 
+  city: 'Based in Franklin- Tennessee',
+  xp: `We welcome everyone to visit the Cuts n Blessings Barber shop. Here you will find a family oriented, fun and entertaining atmosphere for all walks of life.`,
 
-  Spending time in the barbershop is nothing new to Keith. His grandfather, Charles Noppert, was a barber for over 40 years, and still to this day Keith’s grandfather’s shop is the oldest running barbershop in the state of Ohio.
-   
-  Bowtie Barber Club is a new barber shop with a classic feel. Located right outside of Nashville in Donelson, Bowtie Barber Club is one of the newest barber shops that offers a variety of services for men of all ages. Bowtie Barber Club prides itself for its trendy environment, memberships, and quality barbers. Next time you want to relax and leave looking your best, stop by the Bowtie Barber Club and let us take care of you.
+  representing: `Bringing to Franklin the most licensed and professional work possible. This is what makes Cuts N Blessings Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.
   `,
-
-  representing: `Bringing to Nashville the most licensed and professional work possible. This is what makes Bowtie Barber Club a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: "2624 Old Lebanon Rd. Nashville, TN 37214",
-  label: 'Bowtie Barber Club',
-  phone: `615-889-5538`,
-  miniAgenda: `Mon-Thu 	10:00am-6:00pm`,
-  email: `Keith@BowtieBarberClub.com`,
-  facebook: `https://www.facebook.com/bowtiebarberclub/`,
-  instagram: `https://www.instagram.com/bowtiebarberclub/`,
-  latitude: 36.1702818,
-  longitude: -86.6713472,
-  copyright: 'BowtieBarberClub © 2022',
+  address: '202 South Margin Street Franklin, TN 37064',
+  label: 'Cuts N Blessings Barbershop',
+  phone: `(615) 595-2550`,
+  miniAgenda: `Mon-Wed 10:30am-7:00pm`,
+  email: ``,
+  facebook: `https://www.facebook.com/agoodhaircut`,
+  instagram: `https://www.instagram.com/agoodhaircut/`,
+  latitude: 35.92278690774064,
+  longitude: -86.86569183456565,
+  copyright: 'CutsNBlessingsBarbershop © 2022',
 };
 
-export const hero = 'Bowtie Barber Club is a new barber shop with a classic feel.'
-export const hero2 = `Enjoy our always clean and professional barber shop environment.`;
+export const hero = 'Come get the best haircut in town.'
+export const hero2 = `Bringing to Franklin the most licensed and professional work possible.`;
 
 export const colors = {
   primary: "#e02424",
@@ -47,7 +43,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "BowtieBarberClub",
+    name: "CutsNBlessings",
     text: "text-white",
     border: "border-white",
   },
@@ -77,7 +73,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "BowtieBarberClub",
+    name: "CutsNBlessings",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -86,59 +82,31 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Classic Haircut', 
-      price: '37', 
-      description: '(Haircut, hot towel, straight razor neck shave)'
+      name: 'Skin Fade', 
+      price: '40', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
   },
 
   {
       id:2, 
-      name: 'Beard Trim', 
-      price: '20', 
-      description: ''
+      name: 'Haircut & Style', 
+      price: '30', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
   },
 
   {
       id:3, 
-      name: 'Child Cut', 
-      price: '28', 
-      description: '(12 and Under)'
+      name: 'Haircut & Beard trim', 
+      price: '35', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
   },
 
   {
       id:4, 
-      name: "Straight Razor Shave", 
-      price: '50', 
-      description: "" 
+      name: "Woman's Services", 
+      price: '35+', 
+      description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
   },
-
-  {
-    id:5, 
-    name: "Bald Fade", 
-    price: '40', 
-    description: "" 
-},
-
-{
-  id:6, 
-  name: "Partial Shave", 
-  price: '35', 
-  description: "" 
-},
-
-{
-id:7, 
-name: "Neck Shave", 
-price: '10', 
-description: "" 
-},
-
-{
-id:8, 
-name: "Line Up Cut", 
-price: '20', 
-description: "" 
-},
 
 ];
 
@@ -149,9 +117,9 @@ export const workingHours = {
   Monday: `10:00am ⟹ 6:00pm`,
   Tuesday: "10:00am ⟹ 6:00pm",
   Wednesday: "10:00am ⟹ 6:00pm",
-  Thursday: "10:00am ⟹ 6:00pm",
-  Friday: "10:00am ⟹ 5:00pm",
-  Saturday: "10:00am ⟹ 3:00pm",
+  Thursday: "Closed",
+  Friday: "Closed",
+  Saturday: "08:00am ⟹ 5:00pm",
   Sunday: "Closed",
 };
 
@@ -174,11 +142,11 @@ export const images = [
 ];
 
 export const about = 
-    {
+{
 
-        description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-        address: barbershopInfo.address,
-    };
+    description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+    address: barbershopInfo.address,
+};
 
 
 
