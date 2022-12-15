@@ -1,23 +1,23 @@
 export const barbershopInfo = {
-  name: "Drake’s Barbershop", 
-  city: 'Based in Murfreesboro- Tennessee',
-  xp: `Drake’s Barber Shop has proudly had the finest haircuts in town since 1972. We believe that you, the client, are walking “billboards” or advertisements if you will. Your hair represents our work. We also believe that if you take care of your customer, they’ll take care of you. You can schedule an appointment online so no waiting! Just come in for a great haircut in a traditional barber shop at a fair price.`,
+  name: "Great News Barbershop and Beauty Salon", 
+  city: 'Based in Houston-TX',
+  xp: ``,
 
-  representing: `Bringing to Murfreesboro the most licensed and professional work possible. This is what makes Drake’s Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: '1117 Memorial Blvd Murfreesboro, TN 37130',
-  label: 'Drake’s Barbershop',
-  phone: `615-896-0042`,
-  miniAgenda: `Tue-Sat 09:00am-5:30pm`,
-  email: `drakesbarbershop@bellsouth.net `,
-  facebook: `https://www.facebook.com/BarberShopsinMurfreesboro/`,
-  instagram: `https://www.instagram.com/drakesbarbershop/`,
-  latitude: 35.85882840067621,
-  longitude: -86.39253803403098,
-  copyright: 'Drake’sBarbershop © 2022',
+  representing: `Bringing to Houston the most licensed and professional work possible. This is what makes Great News a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: '11324	Huffmeister Road, Houston, Texas 77065',
+  label: 'Great News Barbershop',
+  phone:`713-794-6647`,
+  miniAgenda: `Mon-Sat 08:00am-6:00pm`,
+  email: ``,
+  facebook: `https://www.facebook.com/profile.php?id=100063863843377`,
+  instagram: `https://www.instagram.com/drumscoolcat`,
+  latitude: 29.938704100749298,
+  longitude: -95.62852307285958,
+  copyright: 'Great News Barbershop © 2022',
 };
 
-export const hero = 'Since 1972 delivering the finests haircuts in town.'
-export const hero2 = `Bringing to Murfreesboro the most licensed and professional work possible.`;
+export const hero = 'Always working to keep your swag refreshed.'
+export const hero2 = `Come and experience what true artistry is with the latest trending hairstyles.`;
 
 export const colors = {
   primary: "#e02424",
@@ -42,7 +42,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Drake’s Barbershop",
+    name: "Great News Barbershop",
     text: "text-white",
     border: "border-white",
   },
@@ -72,7 +72,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Drake’s Barbershop",
+    name: "Great News Barbershop",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -81,59 +81,38 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Men’s Haircut', 
-      price: '25', 
-      description: 'Classic mens haircut'
+      name: 'Undercut with Design', 
+      price: '45', 
+      description: ''
   },
 
   {
       id:2, 
-      name: 'Beard Trim', 
-      price: '20', 
-      description: ''
+      name: 'Haircut & Style', 
+      price: '30', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back, relax and enjoy over 20 years of experience coming to work! Beard trim $5.'
   },
 
   {
       id:3, 
       name: 'Haircut & Beard trim', 
-      price: '40', 
-      description: ''
+      price: '35', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
   },
-
-  {
-      id:4, 
-      name: "Kids cut", 
-      price: '20', 
-      description: "" 
-  },
-
-  {
-    id:5, 
-    name: "Bald fade", 
-    price: '30', 
-    description: "" 
-},
-
-{
-  id:6, 
-  name: "Buzz cut", 
-  price: '20', 
-  description: "An even one blade buzz cut" 
-},
 
 ];
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in our own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be our friends. We want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `Closed`,
-  Tuesday: "09:00am ⟹ 5:30pm",
-  Wednesday: "09:00am ⟹ 5:30pm",
-  Thursday: "09:00am ⟹ 5:30pm",
-  Friday: "09:00am ⟹ 5:30pm",
-  Saturday: "08:00am ⟹ 1:30pm",
-  Sunday: "Closed",
+  Monday: `08:00am ⟹ 6:00pm`,
+  Tuesday: "08:00am ⟹ 6:00pm",
+  Wednesday: "08:00am ⟹ 6:00pm",
+  Thursday: "08:00am ⟹ 6:00pm",
+  Friday: "06:30am ⟹ 6:00pm",
+  Saturday: "06:30am ⟹ 5:00pm",
+  Sunday: "07:30am ⟹ 5:00pm",
 };
 
 export const placeImage = "/images/place.png";
