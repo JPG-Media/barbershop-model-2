@@ -1,24 +1,23 @@
 export const barbershopInfo = {
-  name: "Cuts N Blessings Barbershop", 
-  city: 'Based in Franklin- Tennessee',
-  xp: `We welcome everyone to visit the Cuts n Blessings Barber shop. Here you will find a family oriented, fun and entertaining atmosphere for all walks of life.`,
+  name: "Drake’s Barbershop", 
+  city: 'Based in Murfreesboro- Tennessee',
+  xp: `Drake’s Barber Shop has proudly had the finest haircuts in town since 1972. We believe that you, the client, are walking “billboards” or advertisements if you will. Your hair represents our work. We also believe that if you take care of your customer, they’ll take care of you. You can schedule an appointment online so no waiting! Just come in for a great haircut in a traditional barber shop at a fair price.`,
 
-  representing: `Bringing to Franklin the most licensed and professional work possible. This is what makes Cuts N Blessings Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.
-  `,
-  address: '202 South Margin Street Franklin, TN 37064',
-  label: 'Cuts N Blessings Barbershop',
-  phone: `(615) 595-2550`,
-  miniAgenda: `Mon-Wed 10:30am-7:00pm`,
-  email: ``,
-  facebook: `https://www.facebook.com/agoodhaircut`,
-  instagram: `https://www.instagram.com/agoodhaircut/`,
-  latitude: 35.92278690774064,
-  longitude: -86.86569183456565,
-  copyright: 'CutsNBlessingsBarbershop © 2022',
+  representing: `Bringing to Murfreesboro the most licensed and professional work possible. This is what makes Drake’s Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: '1117 Memorial Blvd Murfreesboro, TN 37130',
+  label: 'Drake’s Barbershop',
+  phone: `615-896-0042`,
+  miniAgenda: `Tue-Sat 09:00am-5:30pm`,
+  email: `drakesbarbershop@bellsouth.net `,
+  facebook: `https://www.facebook.com/BarberShopsinMurfreesboro/`,
+  instagram: `https://www.instagram.com/drakesbarbershop/`,
+  latitude: 35.85882840067621,
+  longitude: -86.39253803403098,
+  copyright: 'Drake’sBarbershop © 2022',
 };
 
-export const hero = 'Come get the best haircut in town.'
-export const hero2 = `Bringing to Franklin the most licensed and professional work possible.`;
+export const hero = 'Since 1972 delivering the finests haircuts in town.'
+export const hero2 = `Bringing to Murfreesboro the most licensed and professional work possible.`;
 
 export const colors = {
   primary: "#e02424",
@@ -43,7 +42,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "CutsNBlessings",
+    name: "Drake’s Barbershop",
     text: "text-white",
     border: "border-white",
   },
@@ -73,7 +72,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "CutsNBlessings",
+    name: "Drake’s Barbershop",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -82,31 +81,45 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Skin Fade', 
-      price: '40', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
+      name: 'Men’s Haircut', 
+      price: '25', 
+      description: 'Classic mens haircut'
   },
 
   {
       id:2, 
-      name: 'Haircut & Style', 
-      price: '30', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
+      name: 'Beard Trim', 
+      price: '20', 
+      description: ''
   },
 
   {
       id:3, 
       name: 'Haircut & Beard trim', 
-      price: '35', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
+      price: '40', 
+      description: ''
   },
 
   {
       id:4, 
-      name: "Woman's Services", 
-      price: '35+', 
-      description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
+      name: "Kids cut", 
+      price: '20', 
+      description: "" 
   },
+
+  {
+    id:5, 
+    name: "Bald fade", 
+    price: '30', 
+    description: "" 
+},
+
+{
+  id:6, 
+  name: "Buzz cut", 
+  price: '20', 
+  description: "An even one blade buzz cut" 
+},
 
 ];
 
@@ -114,12 +127,12 @@ export const theEstablishment =
   `The ${barbershopInfo.name} is a place decorated in our own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be our friends. We want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `10:00am ⟹ 6:00pm`,
-  Tuesday: "10:00am ⟹ 6:00pm",
-  Wednesday: "10:00am ⟹ 6:00pm",
-  Thursday: "Closed",
-  Friday: "Closed",
-  Saturday: "08:00am ⟹ 5:00pm",
+  Monday: `Closed`,
+  Tuesday: "09:00am ⟹ 5:30pm",
+  Wednesday: "09:00am ⟹ 5:30pm",
+  Thursday: "09:00am ⟹ 5:30pm",
+  Friday: "09:00am ⟹ 5:30pm",
+  Saturday: "08:00am ⟹ 1:30pm",
   Sunday: "Closed",
 };
 
@@ -144,7 +157,7 @@ export const images = [
 export const about = 
 {
 
-    description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+    description: `${barbershopInfo.name} is your Personal Barbershop, based in ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
     address: barbershopInfo.address,
 };
 
