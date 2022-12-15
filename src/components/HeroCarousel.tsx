@@ -19,7 +19,7 @@ const HeroCarousel = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
       <motion.div className="cursor-grab w-full h-full rounded-l-3xl">
-        <motion.div className="flex gap-3 flex-col md:flex-row w-full md:h-auto h-[90vh] sm:p-10 p-2">
+        <motion.div className="flex gap-3 flex-col md:flex-row w-full md:h-auto h-[70vh] sm:p-10 p-2">
           {heroImages.map((image, index)=>{
             return(
               <ExploreCard

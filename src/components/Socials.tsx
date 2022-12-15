@@ -26,37 +26,38 @@ const Socials = () => {
       </div>
 
       <div
-        className={`${colors.primaryText} py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5 `}
+        className={`${colors.primaryText} py-10 flex flex-col md:flex-row justify-center items-center md:items-start text-center gap-5`}
       >
-        <div className="p-10 border-solid border-[3px] border-secondary rounded  font-bold text-4xl font-logo  text-left flex justify-center items-center w-1/2">
+        <div className="p-10 border-solid border-[3px] border-secondary rounded  font-bold md:text-3xl
+        text-base font-logo  text-left flex md:flex-row flex-col justify-center items-center w-11/12 md:w-1/2">
           <ul className="flex w-full flex-col items-center justify-center">
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full md:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Monday:</h1>
-              <p className="w-full text-right">{workingHours.Monday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Monday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Tuesday:</h1>
-              <p className="w-full text-right">{workingHours.Tuesday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Tuesday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Wednesday:</h1>
-              <p className="w-full text-right">{workingHours.Wednesday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Wednesday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Thursday:</h1>
-              <p className="w-full text-right">{workingHours.Thursday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Thursday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Friday:</h1>
-              <p className="w-full text-right">{workingHours.Friday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Friday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Saturday:</h1>
-              <p className="w-full text-right">{workingHours.Saturday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Saturday}</p>
             </li>
-            <li className="flex w-full justify-center border-b-2 border-dashed border-primary p-4">
+            <li className="flex w-full sm:flex-row flex-col justify-center border-b-2 border-dashed border-primary p-4">
               <h1 className="w-full text-left">Sunday:</h1>
-              <p className="w-full text-right">{workingHours.Sunday}</p>
+              <p className="w-full text-left sm:text-right">{workingHours.Sunday}</p>
             </li>
           </ul>
         </div>
