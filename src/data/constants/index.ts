@@ -1,23 +1,23 @@
 export const barbershopInfo = {
-  name: "Big Dawg Barber",
-  city: "Based in Washington",
-  xp: ``,
+  name: "Blades Barbershop Downtown",
+  city: "Based in Killeen-TX",
+  xp: `Come and experience what true artistry is with the latest trending hairstyles... We have over 2 decades of experience and can service all hair textures...`,
 
-  representing: `Bringing to Washington the most licensed and professional work possible. This is what makes Big Dawg Barber a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: "743 broadway Tacoma, Washington	98402",
-  label: 'BigDawgBarber',
-  phone: `(518) 469-5205`,
-  miniAgenda: `Wed-Sun 11:00AM-5:00PM`,
-  email: `bigdawgbarberco@gmail.com`,
-  facebook: `https://www.facebook.com/bigdawgbarberco`,
-  instagram: `https://www.instagram.com/bigdawgbarberco/`,
-  latitude: 47.25635,
-  longitude: -122.4408049,
-  copyright: 'Big Dawg Barber © 2022',
+  representing: `BBringing to Killeen the most licensed and professional work possible. This is what makes Blades Barbershop Downtown a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: "419 North 10th Street Killeen, TX 76541",
+  label: 'BladesBarbershopDowntown',
+  phone: `254-699-3800`,
+  miniAgenda: `Tue-Sat 09:00am-7:00pm`,
+  email: ``,
+  facebook: `https://www.facebook.com/razorsharpsincebirth`,
+  instagram: `https://www.instagram.com/bladeson10th/`,
+  latitude: 31.12085886806047,
+  longitude: -97.72538807955742,
+  copyright: 'BladesBarbershopDowntown © 2022',
 };
 
-export const hero = "Working to keep your swag refreshed.";
-export const hero2 = `From the barber who loves what he does and who will give you the best haircut in town.”
+export const hero = "Working to make you look great";
+export const hero2 = `Come and experience what true artistry is with the latest trending hairstyles”
 `;
 
 export const colors = {
@@ -43,7 +43,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "BigDawgBarber",
+    name: "Blades Barbershop Downtwon",
     text: "text-white",
     border: "border-white",
   },
@@ -73,7 +73,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "BigDawgBarber",
+    name: "Blades Barbershop Downtwon",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -81,63 +81,46 @@ export const logo = {
 
 export const services = [
   {
-    id: 1,
-    name: "Transformation Styled Cut",
-    price: "50",
-    description: "Haven't had a haircut in a few months? From Long hair to skin fade, ANY transformation cuts, scissor styled cuts, customize any look with different types of fades, various necklines, and shaved lines or hair designs. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services",
-  },
+    id:1, 
+    name: 'Skin Fade', 
+    price: '40', 
+    description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
+},
 
-  {
-    id: 2,
-    name: "Big Dawg Haircut",
-    price: "45",
-    description: "Any transformation cuts will be longer service and starting at +45$. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services. Please add any notes or questions for additional services or people",
-  },
+{
+  id:2, 
+  name: 'Haircut & Style', 
+  price: '30', 
+  description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
+},
 
-  {
-    id: 3,
-    name: "Big Dawg Haircut & Beard Grooming",
-    price: "60",
-    description: "Cut & Styled to your choosing additional details will apply. Full consultation. Finished with Straight razor on neck and temple. Beard: Hot Towel. Beard grooming with straight razor. Full consultation on desired look. Finished with straight razor along the neck/edges and tapered. *Prices are subjected to change through consultation or additional services. Please add any notes or questions for additional services",
-  },
+{
+  id:3, 
+  name: 'Haircut & Beard trim', 
+  price: '35', 
+  description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
+},
 
-  {
-    id: 4,
-    name: "Big Dawg Beard",
-    price: "25+",
-    description: "Trim, Clean up, any way you want. Using straight razor & hot towel. Lean back & relax. You’ll never go back to shaving yourself. We'll get the beard you've been wanting! Prices are subjected to change upon consultation and service. Please leave a note for any additional services or questions",
-  },
+{
+  id:4, 
+  name: "Woman's Services", 
+  price: '35+', 
+  description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
+},
 
-  {
-    id: 5,
-    name: "Hot Shave (Head or Beard)",
-    price: "50",
-    description: "Full hot shave comes with Hot Lather & straight razor. 2 Hot towels. Full consultation at time of service, prices are subjected to change",
-  },
-  {
-    id: 6,
-    name: "Eyebrows",
-    price: "10",
-    description: "Eyebrow Clean Up, Add to your service to complete the full experience, leaving fresh & relaxed!",
-  },
-  {
-    id: 7,
-    name: "Head Wash",
-    price: "07",
-    description: "Head Wash, Add to your service to complete the full experience, leaving fresh & relaxed!",
-  },
 ];
 
-export const theEstablishment = `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+export const theEstablishment = 
+  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
   Monday: `Closed`,
-  Tuesday: "Closed",
-  Wednesday: "11:00am ⟹ 5:00pm",
-  Thursday: "11:00am ⟹ 5:00pm",
-  Friday: "11:00am ⟹ 5:00pm",
-  Saturday: "11:00am ⟹ 5:00pm",
-  Sunday: "11:00am ⟹ 5:00pm",
+  Tuesday: "9:00am ⟹ 7:00pm",
+  Wednesday: "9:00am ⟹ 7:00pm",
+  Thursday: "9:00am ⟹ 7:00pm",
+  Friday: "9:00am ⟹ 7:00pm",
+  Saturday: "8:00am ⟹ 5:00pm",
+  Sunday: "Closed",
 };
 
 export const placeImage = "/images/place.png";
@@ -155,72 +138,14 @@ export const images = [
   "/images/gallery/gallery4.jpg",
   "/images/gallery/gallery5.jpg",
   "/images/gallery/gallery6.jpg",
-  "/images/gallery/gallery7.jpg",
 ];
 
-export const about = {
-  description: `${barbershopInfo.name} is your Personal Barbershop, ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-  address: barbershopInfo.address,
+export const about = 
+{
+
+    description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+    address: barbershopInfo.address,
 };
 
-export const team = [
-  {
-    name: "“D” - DeShone Williams",
-    job: "Master barber",
-    desc: `“D” attended Texas Barber College and has been a professional barber in the North Dallas area for more than twelve years.
-    “Are you in need of a professional barber? Look no further.  I am currently one of the principles in the Kutinfed barbershop located in North Dallas. My passion is to provide professional services in a professional atmosphere.  My specialties include bald fades, light fades, tapers, razor shaves, razor lines, afros, texturizers, and facials.  I am committed to ensuring all clients are fully satisfied. 
-    My goal is to perform the best services that encourages your continuous business and support.  I have haircut customers from all over the entire City of Dallas.  I enjoy delivering excellent customer service and the conversation is always there… if you need it.  My friends call me “Mr. Progress in in Motion” or just plain ole “D.”`,
-    social: `Tel. or  Text:  214 517-8741
-    E-mail: D@Kutinfed.com`,
-    photo: "/images/barbers/team1.jpg",
-  },
-  {
-    name: "“Black” - Willie Horn",
-    job: "Master barber",
-    desc: `“Black” attended Dallas Barber College and has been a professional barber providing haircuts in Dallas,Texas for over 10 years.
-    “I am currently one of the principles in the Kutinfed barbershop operating in North Dallas.  My goal is to show you why Kutinfed barbershop is the premier haircutting barbershop in Dallas, Texas.  My services include fades, bald fades, tapers, Mohawks, bald heads, razor shaves, and facials.  As you can see in our portfolio, I also specialize in designs, and can do”Anything” you want. 
-    Without bragging I feel I am one of the best barbers around and I work hard to earn and keep your business once you sit in my chair.  At Kutinfed’s Barbershop we strive to give you the best. We work by appointment so we don’t rush you in and out.  For that reason we ask that you make an appointment a time that is all yours.”`,
-    social: `Tel. or  Text:  214 642-1619
-    E-mail: Black@Kutinfed.com`,
-    photo: "/images/barbers/team2.jpg",
-  },
-  {
-    name: "“Q” - Quentin Daniel",
-    job: "Master barber",
-    desc: `Quentin is a master barber that attended Lake erie Barber College.  He has been cutting professionally for 10 years.
-    I would like to introduce myself. I have been a professional barber for years and have earned the title of Master Barber. I take pride in the craft of barbering, delivering a professional haircutting experience along with developing strong business relationships with my clients. I strongly believe the barber shop should always have a family, positive vibes only atmosphere!
-   I specialize in tapers, fades, mo-hawks along with razor lines and Bigen upon request. I strive for client appreciation and look forward to your business. My client portfolio ranges from professional athletes and lawyers to college and high school students.`,
-    social: `Tel: 216 377-9459
-    E-mail: qdabarber@gmail.com`,
-    photo: "/images/barbers/team3.jpg",
-  },
-  {
-    name: "“Round” - Darrell Foster",
-    job: "Master barber",
-    desc: `Hello my name Darrell, also known as “Round.” I have been a professional licensed barber mastering the craft for over 13 years.
-    I bring my New Orleans flavor to cutting and I have been in the North Dallas area for over 12 years.
-    My passion for cutting and my love interacting with my customers is evident with each person that sits in my chair for services. Relationships are ‘deeper than cuts’.`,
-    social: `Tel: 504 952-2318
-    E-mail: Roundthebarbers@gmail.com`,
-    photo: "/images/barbers/team4.jpg",
-  },
-  {
-    name: "Antonio Ortega",
-    job: "Master barber",
-    desc: "I am Antonio Ortega. I have lived in Dallas for 25 years and graduated from Dallas Blends barber college. I started a career in barbering because I have a passion for making people look and feel their best and it’s something I take pride in. I specialize in all types of men’s cuts and fades, beard trims, beards lineups, hot towel straight razor shaves, and facials. Book your appointment now for top-notch service!",
-    social: `Tel: 469 269-8495
-    E-mail: aestheticcutz214@gmail.com`,
-    photo: "/images/barbers/team5.jpg",
-  },
-  {
-    name: "Chyno",
-    job: "Professional barber",
-    desc: `I have learned it is better to listen first! I have learned that a customer just wants to be heard and to get the results that meet their expectations, from a service. So, with my many years of service in the barbering industry, I get it!
-    I am well equipped to serve you with one of the best experiences. My services include blowouts, taper fades, drop fades, shear cutting with fades, razor lines, enhancements, full face shaves, shaved bald heads, bald fades, facials, and many more.
-    My focus is to provide a great service with a simple splash of good ole customer service. The Chyno Xperience(TCX) is one to try. We work by appointments, I like to adhere to scheduled professional time.
-    I simply like what I do! Meet You at the chair! Where it all begins.`,
-    social: `Tel: 214 293-2917
-    E-mail:  chyno.ellis@gmail.com`,
-    photo: "/images/barbers/team6.jpg",
-  },
-];
+
+
