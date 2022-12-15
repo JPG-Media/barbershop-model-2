@@ -1,24 +1,28 @@
 export const barbershopInfo = {
-  name: "Blades Barbershop Downtown",
-  city: "Based in Killeen-TX",
-  xp: `Come and experience what true artistry is with the latest trending hairstyles... We have over 2 decades of experience and can service all hair textures...`,
+  name: "Bowtie Barber Club", 
+  city: 'based in Nashville- Tennessee and in Oxford- Ohio',
+  xp: `The Bowtie Barber Club was founded and created by Keith Weiser in 2015. For years Keith was a professional baseball player for the Colorado Rockies organization. He played eight great years of the game before retiring as a left-handed pitcher and moving to Nashville. On the day he married his wife, Keith and his bachelor party went into Master's Barber School in Mt. Juliet to get a fresh cut and hot towel shave. That experience sparked an idea for Keith, in which he created Bowtie Barber Club.
 
-  representing: `BBringing to Killeen the most licensed and professional work possible. This is what makes Blades Barbershop Downtown a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: "419 North 10th Street Killeen, TX 76541",
-  label: 'BladesBarbershopDowntown',
-  phone: `254-699-3800`,
-  miniAgenda: `Tue-Sat 09:00am-7:00pm`,
-  email: ``,
-  facebook: `https://www.facebook.com/razorsharpsincebirth`,
-  instagram: `https://www.instagram.com/bladeson10th/`,
-  latitude: 31.12085886806047,
-  longitude: -97.72538807955742,
-  copyright: 'BladesBarbershopDowntown © 2022',
+  Spending time in the barbershop is nothing new to Keith. His grandfather, Charles Noppert, was a barber for over 40 years, and still to this day Keith’s grandfather’s shop is the oldest running barbershop in the state of Ohio.
+   
+  Bowtie Barber Club is a new barber shop with a classic feel. Located right outside of Nashville in Donelson, Bowtie Barber Club is one of the newest barber shops that offers a variety of services for men of all ages. Bowtie Barber Club prides itself for its trendy environment, memberships, and quality barbers. Next time you want to relax and leave looking your best, stop by the Bowtie Barber Club and let us take care of you.
+  `,
+
+  representing: `Bringing to Nashville the most licensed and professional work possible. This is what makes Bowtie Barber Club a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: "2624 Old Lebanon Rd. Nashville, TN 37214",
+  label: 'Bowtie Barber Club',
+  phone: `615-889-5538`,
+  miniAgenda: `Mon-Thu 	10:00am-6:00pm`,
+  email: `Keith@BowtieBarberClub.com`,
+  facebook: `https://www.facebook.com/bowtiebarberclub/`,
+  instagram: `https://www.instagram.com/bowtiebarberclub/`,
+  latitude: 36.1702818,
+  longitude: -86.6713472,
+  copyright: 'BowtieBarberClub © 2022',
 };
 
-export const hero = "Working to make you look great";
-export const hero2 = `Come and experience what true artistry is with the latest trending hairstyles”
-`;
+export const hero = 'Bowtie Barber Club is a new barber shop with a classic feel.'
+export const hero2 = `Enjoy our always clean and professional barber shop environment.`;
 
 export const colors = {
   primary: "#e02424",
@@ -43,7 +47,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Blades Barbershop Downtwon",
+    name: "BowtieBarberClub",
     text: "text-white",
     border: "border-white",
   },
@@ -73,53 +77,81 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Blades Barbershop Downtwon",
+    name: "BowtieBarberClub",
     text: "text-white font-light",
     border: "border-white",
   },
 };
 
-export const services = [
+export const services =  [
   {
-    id:1, 
-    name: 'Skin Fade', 
+      id:1, 
+      name: 'Classic Haircut', 
+      price: '37', 
+      description: '(Haircut, hot towel, straight razor neck shave)'
+  },
+
+  {
+      id:2, 
+      name: 'Beard Trim', 
+      price: '20', 
+      description: ''
+  },
+
+  {
+      id:3, 
+      name: 'Child Cut', 
+      price: '28', 
+      description: '(12 and Under)'
+  },
+
+  {
+      id:4, 
+      name: "Straight Razor Shave", 
+      price: '50', 
+      description: "" 
+  },
+
+  {
+    id:5, 
+    name: "Bald Fade", 
     price: '40', 
-    description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
+    description: "" 
 },
 
 {
-  id:2, 
-  name: 'Haircut & Style', 
-  price: '30', 
-  description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
-},
-
-{
-  id:3, 
-  name: 'Haircut & Beard trim', 
+  id:6, 
+  name: "Partial Shave", 
   price: '35', 
-  description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
+  description: "" 
 },
 
 {
-  id:4, 
-  name: "Woman's Services", 
-  price: '35+', 
-  description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
+id:7, 
+name: "Neck Shave", 
+price: '10', 
+description: "" 
+},
+
+{
+id:8, 
+name: "Line Up Cut", 
+price: '20', 
+description: "" 
 },
 
 ];
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+  `The ${barbershopInfo.name} is a place decorated in our own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be our friends. We want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `Closed`,
-  Tuesday: "9:00am ⟹ 7:00pm",
-  Wednesday: "9:00am ⟹ 7:00pm",
-  Thursday: "9:00am ⟹ 7:00pm",
-  Friday: "9:00am ⟹ 7:00pm",
-  Saturday: "8:00am ⟹ 5:00pm",
+  Monday: `10:00am ⟹ 6:00pm`,
+  Tuesday: "10:00am ⟹ 6:00pm",
+  Wednesday: "10:00am ⟹ 6:00pm",
+  Thursday: "10:00am ⟹ 6:00pm",
+  Friday: "10:00am ⟹ 5:00pm",
+  Saturday: "10:00am ⟹ 3:00pm",
   Sunday: "Closed",
 };
 
@@ -138,14 +170,15 @@ export const images = [
   "/images/gallery/gallery4.jpg",
   "/images/gallery/gallery5.jpg",
   "/images/gallery/gallery6.jpg",
+  "/images/gallery/gallery7.jpg",
 ];
 
 export const about = 
-{
+    {
 
-    description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-    address: barbershopInfo.address,
-};
+        description: `${barbershopInfo.name} is your Personal Barbershop, based in CITY. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+        address: barbershopInfo.address,
+    };
 
 
 
