@@ -1,23 +1,24 @@
 export const barbershopInfo = {
-  name: "Great News Barbershop and Beauty Salon", 
-  city: 'Based in Houston-TX',
+  name: "Gypsy Barber & Shave", 
+  city: 'Based in Goodlettsville- Tennessee',
   xp: ``,
 
-  representing: `Bringing to Houston the most licensed and professional work possible. This is what makes Great News a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: '11324	Huffmeister Road, Houston, Texas 77065',
-  label: 'Great News Barbershop',
-  phone:`713-794-6647`,
-  miniAgenda: `Mon-Sat 08:00am-6:00pm`,
-  email: ``,
-  facebook: `https://www.facebook.com/profile.php?id=100063863843377`,
-  instagram: `https://www.instagram.com/drumscoolcat`,
-  latitude: 29.938704100749298,
-  longitude: -95.62852307285958,
-  copyright: 'Great News Barbershop © 2022',
+  representing: `Bringing to Goodlettsville the most licensed and professional work possible. This is what makes Gypsy Barber & Shave a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: '815 Meadowlark Lane, Goodlettsville, Tennessee 37072',
+  
+  label: 'Gypsy Barber & Shave',
+  phone:`615-756-4871`,
+   miniAgenda: `Tue-Sat 	10:00am-6:00pm`,
+   email: ` gypsybarberandshave@gmail.com`,
+   facebook: ``,
+   instagram: `https://www.instagram.com/gypsybarberandshave/`,
+   latitude: 36.299523020141066,
+   longitude: -86.70458001353582,
+  copyright: 'GypsyBarber&Shave © 2022',
 };
 
-export const hero = 'Always working to keep your swag refreshed.'
-export const hero2 = `Come and experience what true artistry is with the latest trending hairstyles.`;
+export const hero = 'The most incredible haircuts in town'
+export const hero2 = `Bringing to Goodlettsville the most licensed and professional work possible.`;
 
 export const colors = {
   primary: "#e02424",
@@ -42,7 +43,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Great News Barbershop",
+    name: "GypsyBarber&Shave",
     text: "text-white",
     border: "border-white",
   },
@@ -72,7 +73,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Great News Barbershop",
+    name: "GypsyBarber&Shave",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -81,38 +82,47 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Undercut with Design', 
-      price: '45', 
+      name: 'Haircut', 
+      price: '35', 
       description: ''
   },
 
   {
       id:2, 
-      name: 'Haircut & Style', 
-      price: '30', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back, relax and enjoy over 20 years of experience coming to work! Beard trim $5.'
+      name: 'Haircut w/ Beard Trim', 
+      price: '50', 
+      description: ''
   },
 
   {
       id:3, 
-      name: 'Haircut & Beard trim', 
-      price: '35', 
+      name: 'Full Face Shave', 
+      price: '40', 
       description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
   },
 
-];
+  {
+    id:4, 
+    name: 'Beard Trim', 
+    price: '20', 
+    description: ''
+},
+
+
+ 
+]; 
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+  `The ${barbershopInfo.name} is a place decorated in our own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be our friends. We want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `08:00am ⟹ 6:00pm`,
-  Tuesday: "08:00am ⟹ 6:00pm",
-  Wednesday: "08:00am ⟹ 6:00pm",
-  Thursday: "08:00am ⟹ 6:00pm",
-  Friday: "06:30am ⟹ 6:00pm",
-  Saturday: "06:30am ⟹ 5:00pm",
-  Sunday: "07:30am ⟹ 5:00pm",
+  Monday: `Closed`,
+  Tuesday: "10:00am ⟹ 6:00pm",
+  Wednesday: "10:00am ⟹ 6:00pm",
+  Thursday: "11:00am ⟹ 8:00pm",
+  Friday: "10:00am ⟹ 6:00pm",
+  Saturday: "10:00am ⟹ 6:00pm",
+  Sunday: "Closed",
 };
 
 export const placeImage = "/images/place.png";
@@ -134,11 +144,12 @@ export const images = [
 ];
 
 export const about = 
-{
+    {
 
-    description: `${barbershopInfo.name} is your Personal Barbershop, based in ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-    address: barbershopInfo.address,
-};
+        description: `${barbershopInfo.name} is your Personal Barbershop, based in ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
+        address: barbershopInfo.address,
+    }
+;
 
 
 
