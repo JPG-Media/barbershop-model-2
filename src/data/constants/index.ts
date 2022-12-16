@@ -1,23 +1,23 @@
 export const barbershopInfo = {
-  name: "Taperz Barber Shop", 
-  city: 'based in Keller-TX, Saginaw-TX and River Oaks-TX',
-  xp: `For over 10 years Taperz Barber Shop has been proudly serving the community by offering traditional Barber Shop services in a friendly, modern and upbeat atmosphere. Our skilled Barbers specialize in Fades, Shaves, Modern & Classic Hair Cuts & Styles. We take pride in being Diverse and are confident in working with all hair types and hair textures. We appreciate your business and we look forward to seeing you soon! For your enjoyment we provide complimentary beverages during your service.`,
-  representing: `Bringing to Texas the most licensed and professional work possible. This is what makes Taperz a different and a special place. Enjoy our always clean and professional barber shop environment. Relax, and grab a cold on the house.`, 
-  address: '801 S. Main Street suite 103 Keller, TX 76248', 
+  name: "TX Barber Cartel", 
+  city: 'based in Watauga-TX',
+  xp: `Founded in 2020, TX Barber Cartel is your go-to Barber Shop in Watauga, TX. We’re committed to making you look your best, every day of the week. We offer top-of-the line products and bespoke treatments. Book an appointment or walk in today! Open 7 days a week!`,
+  representing: `Bringing to Watauga the most licensed and professional work possible. This is what makes TX Barber Cartel a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: '6539 Watauga Rd Watauga,TX 76148',
   
-  label: 'TaperzBarberShop',
-  phone:`999-999-9999`,
-  miniAgenda: `Mon-Fri 10:00am-6:30pm`,
-  email: `TAPERZBARBERs@gmail.com`,
-  facebook: `https://www.facebook.com/taperzbarbershop`,
-  instagram: `https://www.instagram.com/taperz_barber_shop`,
-  latitude: 32.921326160461625,
-  longitude:  -97.25352675888712,
-  copyright: 'TaperzBarberShop © 2022',
+  label: 'TX Barber Cartel',
+  phone:`682-289-0103`,
+   miniAgenda: `Mon-Sat 10:30am-6:00pm`,
+   email: `vinny@txbarbercartel.com`,
+   facebook: `https://www.facebook.com/txbarbercartel`,
+   instagram: `https://www.instagram.com/txbarbercartel/`,
+   latitude: 32.86143799307708,
+   longitude: -97.24155280792067,
+  copyright: 'TX Barber Cartel © 2022',
 };
 
-export const hero = 'Friendly, modern and upbeat atmosphere.'
-export const hero2 = `For over 10 years Taperz Barber Shop has been proudly serving the community by offering traditional Barber Shop services. `;
+export const hero = "The recipe for the style you can find here."
+export const hero2 = `We’re committed to making you look your best, every day of the week. `;
 
 export const colors = {
   primary: "#e02424",
@@ -81,65 +81,48 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Classic Cut', 
-      price: '35', 
-      description: 'Relax and grab a beer while your Barber achieves your custom look. Hot lather available upon request.'
+      name: 'Haircut & Style', 
+      price: '30', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back, relax and enjoy over 20 years of experience coming to work! Beard trim $5.'
   },
 
   {
       id:2, 
-      name: 'Specialty cut', 
-      price: '40', 
-      description: 'This service requires a little extra time & detail. For example, a skin/bald fade, scissor cut, burst fade, etc. Hot lather available upon request.'
+      name: 'Haircut & Style', 
+      price: '30', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
   },
 
   {
       id:3, 
-      name: 'Buzz cut', 
-      price: '25', 
-      description: 'A low maintenance same length cut all over. Hot lather available upon request.'
+      name: 'Haircut & Beard trim', 
+      price: '35', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, Beard trim, (No beard detailing) eyebrows & ears maintenance, blow-dry and style, cold beer or beverage'
   },
 
   {
       id:4, 
-      name: "Young cut", 
-      price: '30', 
-      description: "An executed haircut achieved with either clippers or shears. Depending on the length and time of the service an adult price may be charged." 
+      name: "Woman's Services", 
+      price: '35+', 
+      description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
   },
-  {
-    id: 5,
-    name: "Cut & Beard",
-    price: "55",
-    description: "Combination of a Classic Cut & Beard Detail to achieve the perfect look.",
- 
-    
-  },
-  {
-    id: 6,
-    name: "Cut & Shave",
-    price: "60",
-    description: "The Ultimate Combination to leave you feeling like a million bucks!",
- 
-    
-  },
-
 
  
 ]; 
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!
-  `;
+  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+
 
 
 export const workingHours = {
-  Monday: `10:00am ⟹ 6:30pm`,
-  Tuesday: "10:00am ⟹ 6:30pm",
-  Wednesday: "10:00am ⟹ 6:30pm",
-  Thursday: "10:00am ⟹ 6:30pm",
-  Friday: "10:00am ⟹ 6:30pm",
-  Saturday: "09:00am ⟹ 4:30pm",
-  Sunday: "Closed",
+  Monday: `11:00am ⟹ 5:00pm`,
+  Tuesday: "10:30am ⟹ 6:00pm",
+  Wednesday: "10:30am ⟹ 6:00pm",
+  Thursday: "10:30am ⟹ 6:00pm",
+  Friday: "10:30am ⟹ 6:00pm",
+  Saturday: "10:30am ⟹ 6:00pm",
+  Sunday: "11:00am ⟹ 3:00pm",
 };
 
 export const placeImage = "/images/place.png";
@@ -159,15 +142,18 @@ export const images = [
   "/images/gallery/gallery6.jpg",
   "/images/gallery/gallery7.jpg",
   "/images/gallery/gallery8.jpg",
+  "/images/gallery/gallery9.jpg",
+  "/images/gallery/gallery10.jpg",
 
 ];
 
 export const about = 
-{
+    {
 
-    description: `${barbershopInfo.name} is your Personal Barbershop, based in ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.`,
-    address: barbershopInfo.address,
-}
+        description: `${barbershopInfo.name} is your Personal Barbershop, based in ${barbershopInfo.city}. We are specialized in all types of men's haircuts and we do our best to please our customers. With the Style you desire by a consultation that fits your lifestyle, ${barbershopInfo.xp} delivering a great result so they feel better when they walk out my door.
+        `,
+        address: barbershopInfo.address,
+    }
 ;
 
 
