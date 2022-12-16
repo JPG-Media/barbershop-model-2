@@ -1,23 +1,23 @@
 export const barbershopInfo = {
-  name: "TX Barber Cartel", 
-  city: 'based in Watauga-TX',
-  xp: `Founded in 2020, TX Barber Cartel is your go-to Barber Shop in Watauga, TX. We’re committed to making you look your best, every day of the week. We offer top-of-the line products and bespoke treatments. Book an appointment or walk in today! Open 7 days a week!`,
-  representing: `Bringing to Watauga the most licensed and professional work possible. This is what makes TX Barber Cartel a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: '6539 Watauga Rd Watauga,TX 76148',
+  name: "Xquisite Blendz", 
+  city: 'based in Abilene-TX',
+  xp: ``,
+  representing: `Bringing to Abilene the most licensed and professional work possible. This is what makes Xquisite Blendz a different and a special place. Enjoy our always clean and professional barber shop environment.`, 
+  address: '3630 North 6th Street Abilene, TX 79603',
   
-  label: 'TX Barber Cartel',
-  phone:`682-289-0103`,
-   miniAgenda: `Mon-Sat 10:30am-6:00pm`,
-   email: `vinny@txbarbercartel.com`,
-   facebook: `https://www.facebook.com/txbarbercartel`,
-   instagram: `https://www.instagram.com/txbarbercartel/`,
-   latitude: 32.86143799307708,
-   longitude: -97.24155280792067,
-  copyright: 'TX Barber Cartel © 2022',
+  label: 'Xquisite Blendz',
+  phone:`(325)-670-0479`,
+  miniAgenda: `Mon-Sat 10:00am-7:00pm`,
+  email: ``,
+  facebook: `https://www.facebook.com/xbbabilene`,
+  instagram: `https://www.instagram.com/xquisite_blendz_barbershop/`,
+  latitude: 32.4555300327042,
+  longitude: -99.76696582883558,
+  copyright: 'Xquisite Blendz © 2022',
 };
 
-export const hero = "The recipe for the style you can find here."
-export const hero2 = `We’re committed to making you look your best, every day of the week. `;
+export const hero = 'Life is better when you’re looking good.'
+export const hero2 = `Our job is to make you look your best.`;
 
 export const colors = {
   primary: "#e02424",
@@ -42,7 +42,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Taperz Barber Shop",
+    name: "Xquisite Blendz",
     text: "text-white",
     border: "border-white",
   },
@@ -72,7 +72,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Taperz Barber Shop",
+    name: "Xquisite Blendz",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -81,16 +81,16 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Haircut & Style', 
-      price: '30', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back, relax and enjoy over 20 years of experience coming to work! Beard trim $5.'
+      name: 'Skin Fade', 
+      price: '40', 
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance,relax and enjoy over 20 years of experience comes to work! Beard trim $5..'
   },
 
   {
       id:2, 
       name: 'Haircut & Style', 
       price: '30', 
-      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back relax and enjoy over 20 years of experience comes to work! Beard trim $5.'
+      description: 'Any type of haircut & style you desire, Lathered neck & straight razor edging, eyebrows & ears maintenance, blow-dry and style, free cold beer or beverage. Sit back, relax and enjoy over 20 years of experience coming to work! Beard trim $5.'
   },
 
   {
@@ -104,25 +104,27 @@ export const services =  [
       id:4, 
       name: "Woman's Services", 
       price: '35+', 
-      description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+) " 
+      description: "Woman's Haircut( $35+) Color ($65+) Blow Dry ($45) Hair Extensions ($400+)" 
   },
+
+
 
  
 ]; 
 
 export const theEstablishment = 
-  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
+  `The ${barbershopInfo.name} is a place decorated in my own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be my friend. I want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!  `;
 
 
 
 export const workingHours = {
-  Monday: `11:00am ⟹ 5:00pm`,
-  Tuesday: "10:30am ⟹ 6:00pm",
-  Wednesday: "10:30am ⟹ 6:00pm",
-  Thursday: "10:30am ⟹ 6:00pm",
-  Friday: "10:30am ⟹ 6:00pm",
-  Saturday: "10:30am ⟹ 6:00pm",
-  Sunday: "11:00am ⟹ 3:00pm",
+  Monday: `10:00am ⟹ 6:00pm`,
+  Tuesday: "10:00am ⟹ 7:00pm",
+  Wednesday: "10:00am ⟹ 7:00pm",
+  Thursday: "10:00am ⟹ 7:00pm",
+  Friday: "10:00am ⟹ 7:00pm",
+  Saturday: "10:00am ⟹ 7:00pm",
+  Sunday: "12:00pm ⟹ 4:00pm",
 };
 
 export const placeImage = "/images/place.png";
@@ -140,10 +142,7 @@ export const images = [
   "/images/gallery/gallery4.jpg",
   "/images/gallery/gallery5.jpg",
   "/images/gallery/gallery6.jpg",
-  "/images/gallery/gallery7.jpg",
-  "/images/gallery/gallery8.jpg",
-  "/images/gallery/gallery9.jpg",
-  "/images/gallery/gallery10.jpg",
+
 
 ];
 
