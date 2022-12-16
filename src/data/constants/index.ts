@@ -1,23 +1,24 @@
 export const barbershopInfo = {
-  name: "Refine Classic Barbershop", 
-  city: 'based in Mount Juliet- Tennessee',
-  xp: ``,
-
-  representing: `Bringing to Mount Juliet the most licensed and professional work possible. This is what makes Refine Classic Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: '2231 N. Mount Juliet Rd. Ste 104 Mount Juliet, TN 37122',
+  name: "Shane’s Classic Barbershop", 
+  city: 'based in Nashville- Tennessee',
+  xp: `I always try to show customers my love for Puerto Rico, my roots are part of my history, and working in Orlando, I can show other people where I came from and where I learned to do what I love! Always with God first of all and giving the best for our customers,`,
+  representing: `Bringing to Nashville the most licensed and professional work possible. This is what makes Shane’s Classic Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.
+  `, 
+  address: '2746 Old Lebanon Rd, Nashville, TN 37214',
   
-  label: 'RefineClassicBarbershop',
-  phone:`615-288-3484`,
-   miniAgenda: `Mon-Fri 	09:00am-7:00pm`,
-   email: ` `,
-   facebook: `https://www.facebook.com/Refineclassicbarbershop/`,
-   instagram: `https://www.instagram.com/refinebarbershop/`,
-   latitude: 36.2012185055081,
-   longitude: -86.51835162945245,
-  copyright: 'RefineClassicBarbershop © 2022',
+  label: 'Shane’sClassicBarbershop',
+  phone:`
+  (615) 730-5616`,
+     miniAgenda: `Mon-Sat 	09:00am-6:00pm`,
+     email: ` `,
+     facebook: `https://www.facebook.com/shanesclassicbarbershop/`,
+     instagram: `https://www.instagram.com/shanesclassicbarbershop/`,
+     latitude: 36.16809946920114,
+     longitude: -86.66400059196576,
+  copyright: 'Shane’sClassicBarbershop © 2022',
 };
 
-export const hero = 'The most incredible haircuts in town.'
+export const hero = 'The most incredible haircuts in town'
 export const hero2 = `Enjoy our always clean and professional barber shop environment.`;
 
 export const colors = {
@@ -43,7 +44,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Refine Classic Barbershop",
+    name: "Shane’s Classic Barbershop",
     text: "text-white",
     border: "border-white",
   },
@@ -73,7 +74,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Refine Classic Barbershop",
+    name: "Shane’s Classic Barbershop",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -82,39 +83,31 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Premium Haircut', 
-      price: '33', 
-      description: 'This cut includes a straight razor on the back of the neck, a hot towel, scalp massage, and shampoo with a custom style.'
+      name: 'Classic Cut', 
+      price: '30', 
+      description: 'Includes a cut and style of your choosing and a straight razor shave on the back of the neck.'
   },
 
   {
       id:2, 
-      name: 'Classic Haircut', 
-      price: '28', 
-      description: 'This cut includes a straight razor on the back of the neck, a hot towel, and a custom style'
+      name: 'Classic cut with beard trim', 
+      price: '35', 
+      description: 'Classic Cut with single guard (one length all over) beard trim and line up.'
   },
 
   {
       id:3, 
-      name: 'Child’s Cut', 
-      price: '20', 
-      description: 'Kids 12 and under. Each cut includes a hot towel and a custom style.'
+      name: 'Beard Trim', 
+      price: '10', 
+      description: 'A single guard (one length all over) beard and mustache trim.'
   },
 
   {
       id:4, 
-      name: "Buzz Cut", 
-      price: '20', 
-      description: "1 guard all over. Each cut includes a straight razor on the back of the neck and a hot towel." 
+      name: "Classic cut with straight razor shave", 
+      price: '60', 
+      description: "Includes a classic cut with a hot lather straight razor shave." 
   },
-  {
-    id: 5,
-    name: "Skin Fade",//
-    price: "30",//
-    description: "This cut includes a straight razor finish and a hot towel.",
-    // 
-  },
-
 
  
 ]; 
