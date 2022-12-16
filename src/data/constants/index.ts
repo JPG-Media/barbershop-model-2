@@ -142,8 +142,7 @@ export const images = [
   "/images/gallery/gallery4.jpg",
   "/images/gallery/gallery5.jpg",
   "/images/gallery/gallery6.jpg",
-
-
+  "/images/gallery/gallery7.jpg",
 ];
 
 export const about = 
