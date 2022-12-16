@@ -1,27 +1,25 @@
 export const barbershopInfo = {
-  name: "Hats Off Classic Barbershop", 
-  city: 'based in Antioch- Tennessee',
-  xp: `It's not just a haircut, it's an experience.
-  Where detail makes the difference
-  `,
+  name: "Next Gen Barbershop", 
+  city: 'based in Murfreesboro- Tennessee',
+  xp: ``,
 
-  representing: `Bringing to Antioch the most licensed and professional work possible. This is what makes Hats Off Classic Barbershop a different and a special place. Enjoy our always clean and professional barber shop environment.`,
-  address: '2400 Antioch Pike Suite D Antioch, TN 37013',
+  representing: `Bringing to Murfreesboro the most licensed and professional work possible. This is what makes Next Gen Barbershop  a different and a special place. Enjoy our always clean and professional barber shop environment.`,
+  address: '2705 Old Fort Pkwy, Murfreesboro, TN 37128',
   
-  label: 'Hats Off Classic Barbershop',
-  phone:`615-569-6580
-  `,
-     miniAgenda: `Tue-Sat Noon-6:30pm`,
-     email: ``,
-     facebook: ``,
-     instagram: `https://www.instagram.com/hatsoffclassic_barbershop/`,
-     latitude: 36.06093711126134,
-     longitude:  -86.67284375493008,
-  copyright: 'HatsOffClassicBarbershop © 2022',
+  label: 'Next Gen Barbershop',
+  phone:`
+  (615) 907-4006`,
+    miniAgenda: `Mon-Fri	09:00am-5:45pm`,
+    email: `nexgenbarbers@yahoo.com`,
+    facebook: ``,
+    instagram: `https://www.instagram.com/nexgen_barber_shop/`,
+    latitude: 35.84454139734579,
+    longitude: -86.44575633193007,
+  copyright: 'NextGenBarbershop © 2022',
 };
 
-export const hero = 'Its not just a haircut, its an experience.'
-export const hero2 = `Bringing to Antioch the most licensed and professional work possible.`;
+export const hero = 'The most incredible haircuts in town.'
+export const hero2 = `Bringing to Murfreesboro the most licensed and professional work possible.`;
 
 export const colors = {
   primary: "#e02424",
@@ -46,7 +44,7 @@ export const colors = {
 
 export const logo = {
   nav: {
-    name: "Hats Off",
+    name: "Next Gen Barbershop",
     text: "text-white",
     border: "border-white",
   },
@@ -76,7 +74,7 @@ export const logo = {
     border: "border-white",
   },
   footer: {
-    name: "Hats Off",
+    name: "Next Gen Barbershop",
     text: "text-white font-light",
     border: "border-white",
   },
@@ -85,59 +83,45 @@ export const logo = {
 export const services =  [
   {
       id:1, 
-      name: 'Haircut', 
-      price: '25', 
-      description: ''
+      name: 'Classic Cut', 
+      price: '40', 
+      description: 'Basic cut with neck shave. Product and Style included.'
   },
 
   {
       id:2, 
-      name: 'Haircut & Beard', 
+      name: 'Detailed Cut', 
       price: '30', 
-      description: ''
+      description: 'Razer fade, hard parts, razor lines, etc. Product and Style included.'
   },
 
   {
       id:3, 
-      name: 'Kids Cut', 
-      price: '20', 
-      description: ''
+      name: 'Full Beard Trim', 
+      price: '35', 
+      description: 'Kids 10 and younger'
   },
 
   {
       id:4, 
-      name: "Woman's Services", 
-      price: '22+', 
-      description: "" 
+      name: "Edge Up", 
+      price: '35', 
+      description: "All around the head, face not included" 
   },
 
-  {
-    id:5, 
-    name: "Eyebrow Arch", 
-    price: '12', 
-    description: "" 
-},
-
-{
-  id:6, 
-  name: "Mohawk", 
-  price: '22', 
-  description: "" 
-},
-
  
-]; 
+];
 
 export const theEstablishment = 
   `The ${barbershopInfo.name} is a place decorated in our own way and always with good music, ${barbershopInfo.representing}. Besides a great haircut, at ${barbershopInfo.name} you can enjoy a place where men can go to be our friends. We want them to feel comfortable here. So come get a haircut and a cold one at ${barbershopInfo.name}!`;
 
 export const workingHours = {
-  Monday: `Closed`,
-  Tuesday: "Closed",
-  Wednesday: "Closed",
-  Thursday: "Noon ⟹ 6:30pm",
-  Friday: "Noon ⟹ 6:30pm",
-  Saturday: "Noon ⟹ 6:30pm",
+  Monday: `09:00am ⟹ 5:45pm`,
+  Tuesday: "09:00am ⟹ 5:45pm",
+  Wednesday: "09:00am ⟹ 5:45pm",
+  Thursday: "09:00am ⟹ 5:45pm",
+  Friday: "09:00am ⟹ 5:45pm",
+  Saturday: "09:00 ⟹ 2:00pm",
   Sunday: "Closed",
 };
 
@@ -150,16 +134,13 @@ export const heroImages = [
 ];
 
 export const images = [
-  "/images/gallery/gallery1.webp",
-  "/images/gallery/gallery2.webp",
-  "/images/gallery/gallery3.webp",
-  "/images/gallery/gallery4.webp",
-  "/images/gallery/gallery5.webp",
-  "/images/gallery/gallery6.webp",
-  "/images/gallery/gallery7.webp",
-  "/images/gallery/gallery8.webp",
-  "/images/gallery/gallery9.webp",
-  "/images/gallery/gallery10.webp",
+  "/images/gallery/gallery1.jpg",
+  "/images/gallery/gallery2.jpg",
+  "/images/gallery/gallery3.jpg",
+  "/images/gallery/gallery4.jpg",
+  "/images/gallery/gallery5.jpg",
+  "/images/gallery/gallery6.jpg",
+  "/images/gallery/gallery7.jpg",
 ];
 
 export const about = 
